@@ -11,7 +11,12 @@ Tools needed:
 - [htmlq](https://github.com/mgdm/htmlq) - or something similar, for extracting html sections conveniently on the CLI
 
 ### 1. Grab data from the wiki
-`rm -r scraped-data && wget -P scraped-data https://gunfirereborn.fandom.com/wiki/Occult_Scrolls`
+```
+rm -r scraped-data && wget -p -k -P scraped-data https://gunfirereborn.fandom.com/wiki/Occult_Scrolls
+mv scraped-data/gunfirereborn.fandom.com/wiki/Occult_Scrolls scraped-data
+rm -r scraped-data/gunfirereborn.fandom.com
+```
+
 
 Now, in `scraped-data/gunfirereborn.fandom.com/wiki/Occult_Scrolls` we have the html for the Occult Scrolls page in the wiki
 
