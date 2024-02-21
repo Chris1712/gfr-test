@@ -2,6 +2,14 @@
 
 Test your GFR knowledge!
 
+This project contains setup for scraping data and then the gfr-app
+
+## Building the app
+
+The app is a vite-powered vue project created in Feb 2024 by `npm create vue@latest`
+
+
+
 ## Wiki scraping
 
 We need to obtain icons and data from the fandom wiki. I've tried to make this a repeatable process so gameplay updates can be captured:
