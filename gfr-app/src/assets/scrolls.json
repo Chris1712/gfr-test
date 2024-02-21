@@ -455,7 +455,7 @@
     "link": "https://gunfirereborn.fandom.com/wiki/Rich%27s_Privileges",
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c9/Rich%27s_Privileges.png/revision/latest/scale-to-width-down/64?cb=20211118110314",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c9/Rich%27s_Privileges.png",
-    "img_title": "Rich%27s_Privileges.png",
+    "img_title": "Richs_Privileges.png",
     "desc": "Every time your skill deals DMG, it will inflict additional skill DMG based on how much copper you currently own. (For each enemy, the additional skill DMG occurs up to 1 time every 3s.)Enhanced ( 100?): Every time your skill deals DMG, it will inflict additional skill DMG based on how much copper you currently own. (For each enemy, the additional skill DMG occurs up to 1 time every 2s.)"
   },
   {
@@ -635,7 +635,7 @@
     "link": "https://gunfirereborn.fandom.com/wiki/Devil%27s_Covenant",
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/36/Devil%27s_Covenant.png/revision/latest/scale-to-width-down/64?cb=20200612012724",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/36/Devil%27s_Covenant.png",
-    "img_title": "Devil%27s_Covenant.png",
+    "img_title": "Devils_Covenant.png",
     "desc": "-50% Max HP, +50% copper gained with this scroll.Enhanced ( 60?): +50% copper gained with this scroll."
   },
   {
@@ -1076,7 +1076,7 @@
     "link": "https://gunfirereborn.fandom.com/wiki/Normal_Ammo",
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/97/Normal_Ammo_%28Scroll%29.png/revision/latest/scale-to-width-down/64?cb=20230601102959",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/97/Normal_Ammo_%28Scroll%29.png",
-    "img_title": "Normal_Ammo_%28Scroll%29.png",
+    "img_title": "Normal_Ammo_Scroll.png",
     "desc": "-100% extra ammo of other types when shooting with normal ammo weapons. +30% Weapon DMG for each extra ammo consumed in this shooting.Enhanced ( ??): -100% extra ammo of other types when shooting with normal ammo weapons. +30% Weapon DMG for each extra ammo consumed in this shooting, +30% chance of a lucky shot for every large ammo consumed, +0.5x CritX for every special ammo consumed."
   },
   {
@@ -1085,7 +1085,7 @@
     "link": "https://gunfirereborn.fandom.com/wiki/Large_Ammo",
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/86/Large_Ammo_%28Scroll%29.png/revision/latest/scale-to-width-down/64?cb=20230601102932",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/86/Large_Ammo_%28Scroll%29.png",
-    "img_title": "Large_Ammo_%28Scroll%29.png",
+    "img_title": "Large_Ammo_Scroll.png",
     "desc": "-100% extra special ammo when shooting with large ammo weapons. +0.5x CritX for each extra ammo consumed in this shooting.Enhanced ( ??): -200% extra special ammo when shooting with large ammo weapons. +30% Lucky Shot Chance for each large ammo consumed in this shooting, +0.5x CritX for every special ammo consumed."
   },
   {
@@ -1094,7 +1094,7 @@
     "link": "https://gunfirereborn.fandom.com/wiki/Special_Ammo",
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8a/Special_Ammo_%28Scroll%29.png/revision/latest/scale-to-width-down/64?cb=20230601103039",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8a/Special_Ammo_%28Scroll%29.png",
-    "img_title": "Special_Ammo_%28Scroll%29.png",
+    "img_title": "Special_Ammo_Scroll.png",
     "desc": "-400% extra large ammo when shooting with special ammo weapons. +12% Lucky Shot Chance for each extra ammo consumed in this shooting.Enhanced ( 60?): -400% extra large ammo when shooting with special ammo weapons. +12% Lucky Shot Chance for each extra ammo consumed in this shooting, +0.5x CritX for every special ammo consumed."
   },
   {
@@ -1184,7 +1184,7 @@
     "link": "https://gunfirereborn.fandom.com/wiki/Ninja%27s_Discipline",
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/90/Ninja%27s_Discipline.png/revision/latest/scale-to-width-down/64?cb=20200616071703",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/90/Ninja%27s_Discipline.png",
-    "img_title": "Ninja%27s_Discipline.png",
+    "img_title": "Ninjas_Discipline.png",
     "desc": "+5% Lucky Shot Chance per second (up to +50%). Resets after triggering a Lucky Shot.Enhanced ( 60?): +5% Lucky Shot Chance per second (up to 10 stacks). Upon reaching the max stacks, resets after triggering a Lucky Shot."
   },
   {

@@ -51,8 +51,10 @@ for file in processed-data/tables/*.html; do
     img_url_short=$(echo $img_url_full | grep -o 'http.*\.png')
     echo img_url_short: $img_url_short
 
+    # To set an image title we find everything between / and .png in the url
     img_title=$(echo $img_url_short | grep -o '/[^/]*$')
-    img_title="${img_title:1}"
+    img_title="${img_title:1}" # Trim the leading /
+    img_title="$(echo $img_title | sed 's/%[0-9][0-9]//g')" # remove any percent encoded chars
     echo img_title: $img_title
 
     desc=$(htmlq -f "$file" --text "tbody > tr:nth-of-type($row) > td:nth-of-type(2)")

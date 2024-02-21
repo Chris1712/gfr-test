@@ -70,5 +70,4 @@ Remember to commit everything too!
     - center
     - bigger images
     - show type
-    - Ninja's discipline doesn't really work. Scraping perhaps should just remove ()' 
 - Test a deployment once this can show N random scrolls on refresh
