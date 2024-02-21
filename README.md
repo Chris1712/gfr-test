@@ -52,3 +52,11 @@ Each of the files created has a <tr> for each scroll. Each looks like this:
 
 Run `process-scraped-html.sh` to use the downloaded html and build a json array holding all of the useful scroll data.
 It also downloads the scroll images.
+
+
+
+### TODO
+
+- Create the scroll detail component - probably it needs to be provided with an id or something?
+- Docs for copying stuff from scraping setup into app setup
+- Test a deployment once this can show 5 random scrolls on refresh

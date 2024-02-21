@@ -1,11 +1,17 @@
 <script setup lang="ts">
-import ScrollQuiz from "@/components/ScrollQuiz.vue";
+import ScrollDetail from "@/components/ScrollDetail.vue";
+import scrolls from "@/assets/scrolls.json";
+
+const scrollName = "hi"
+
 </script>
 
 <template>
-  <main>
-      <scroll-quiz />
-  </main>
+  <scroll-detail :name="scrolls[0].name" />
+  <scroll-detail :name="scrolls[1].name" />
+  <scroll-detail :name="scrolls[2].name" />
+  <scroll-detail :name="scrolls[3].name" />
+  <scroll-detail :name="scrolls[4].name" />
 </template>
 
 <style scoped>
