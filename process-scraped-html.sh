@@ -65,8 +65,9 @@ for file in processed-data/tables/*.html; do
        --arg link "$link" \
        --arg img_url_full "$img_url_full" \
        --arg img_url_short "$img_url_short" \
+       --arg img_title "$img_title" \
        --arg desc "$desc" \
-      '. += [{"type": $type, "name": $name, "link": $link, "img_url_full": $img_url_full, "img_url_short": $img_url_short, "desc": $desc}]' "$output" > "${output}.tmp" && mv "${output}.tmp" "$output"
+      '. += [{"type": $type, "name": $name, "link": $link, "img_url_full": $img_url_full, "img_url_short": $img_url_short, "img_title": $img_title, "desc": $desc}]' "$output" > "${output}.tmp" && mv "${output}.tmp" "$output"
 
     # Ensure that the image has been downloaded
     img_path=processed-data/images/$img_title
@@ -75,7 +76,8 @@ for file in processed-data/tables/*.html; do
       echo "Image already exists"
     else
       echo "Downloading"
-      wget -P processed-data/images $img_url_short 
+      wget -O $img_path $img_url_short
+
     fi
 
   done
