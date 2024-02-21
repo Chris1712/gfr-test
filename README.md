@@ -1,5 +1,7 @@
 # Gunfire Reborn Test
 
+Test your GFR knowledge!
+
 ## Wiki scraping
 
 We need to obtain icons and data from the fandom wiki. I've tried to make this a repeatable process so gameplay updates can be captured:
