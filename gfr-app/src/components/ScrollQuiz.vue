@@ -26,20 +26,5 @@ while (indexes.length < no_scrolls) {
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
   }
-
-  main {
-    display: flex; /* This makes it a flex container and aligns children in a row */
-    justify-content: center; /* This aligns the children at the start of the container */
-    align-items: center; /* This centers the children vertically */
-    overflow-x: auto; /* Adds horizontal scrolling if the items overflow */
-    gap: 10px; /* Optional: adds space between the children */
-    width: 100%;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
 }
 </style>

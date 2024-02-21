@@ -18,15 +18,15 @@ import ScrollQuiz from "@/components/ScrollQuiz.vue";
   }
 
   main {
-    display: flex; /* This makes it a flex container and aligns children in a row */
-    justify-content: center; /* This aligns the children at the start of the container */
-    align-items: center; /* This centers the children vertically */
-    overflow-x: auto; /* Adds horizontal scrolling if the items overflow */
-    gap: 10px; /* Optional: adds space between the children */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    overflow-x: auto;
+    gap: 20px;
     width: 100%;
   }
 
-  header .wrapper {
+  header {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;

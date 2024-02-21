@@ -66,8 +66,7 @@ Remember to commit everything too!
 ### TODO
 
 - Finish up the scroll detail component - probably it needs to be provided with an id or something?
-    - Fix height
-    - center
-    - bigger images
     - show type
+    - handle enhanced
 - Test a deployment once this can show N random scrolls on refresh
+- Look at all scrolls
