@@ -2,16 +2,20 @@
 import ScrollDetail from "@/components/ScrollDetail.vue";
 import scrolls from "@/assets/scrolls.json";
 
-const scrollName = "hi"
+let no_scrolls: number = 4;
+let indexes: number[] = [];
+
+while (indexes.length < no_scrolls) {
+  let n = Math.floor(Math.random() * scrolls.length);
+  if (!indexes.includes(n)) {
+    indexes.push(n);
+  }
+}
 
 </script>
 
 <template>
-  <scroll-detail :name="scrolls[0].name" />
-  <scroll-detail :name="scrolls[1].name" />
-  <scroll-detail :name="scrolls[2].name" />
-  <scroll-detail :name="scrolls[3].name" />
-  <scroll-detail :name="scrolls[4].name" />
+  <scroll-detail v-for="i in indexes" :index="i" :key="i" />
 </template>
 
 <style scoped>
