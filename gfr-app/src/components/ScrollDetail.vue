@@ -1,9 +1,9 @@
 <!--
-  Component representing all the details of a scroll
+  Component presenting all the details of a scroll
   Input is the index of the scroll
 -->
 <script setup lang="ts">
-import scrolls from "@/assets/scrolls.json";
+import ScrollUtils, { type Scroll, type ScrollType } from "@/services/ScrollUtils";
 import { computed } from 'vue';
 
 
@@ -11,11 +11,11 @@ const props = defineProps<{
   index: number
 }>()
 
-const scroll = scrolls[props.index];
+const scroll = ScrollUtils.getScrolls()[props.index];
 
 // Dynamically construct the image URL; necessary to work with vite once bundled.
 const imgPath = computed(() => {
-  return new URL(`../assets/scroll-images/${scroll.img_title}`, import.meta.url).href;
+  return new URL(`../assets/scroll-images/${scroll.imgTitle}`, import.meta.url).href;
 });
 
 const color = `var(--color-scroll-${scroll.type})`;
