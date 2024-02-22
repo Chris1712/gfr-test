@@ -34,6 +34,14 @@
   --color-text: var(--vt-c-text-dark-2);
 
   --section-gap: 160px;
+
+  --color-enhanced: #2deabe;
+  --color-scroll-normal: #e6e6e6;
+  --color-scroll-rare: #9559E3;
+  --color-scroll-legendary: #F2A00F;
+  --color-scroll-cursed: #C6260D;
+  --color-scroll-removed: #6f6c6c;
+
 }
 
 *,

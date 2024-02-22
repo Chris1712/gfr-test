@@ -80,7 +80,7 @@ Remember to commit everything too!
 ### TODO
 
 - Finish up the scroll detail component - probably it needs to be provided with an id or something?
-    - show type
-    - handle enhanced
+  - Fix up alignment
+  - Maybe add a wiki link
 - Test a deployment once this can show N random scrolls on refresh
 - Look at all scrolls
