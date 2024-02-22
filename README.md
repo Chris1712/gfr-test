@@ -71,7 +71,7 @@ It also downloads the scroll images.
 
 If we've got changed data we're interested in:
 
-`cp processed-data/scrolls.json gfr-app/src/assets/`
+`mv processed-data/scrolls.json gfr-app/src/assets/`
 `rm -r gfr-app/src/assets/scroll-images && cp -r processed-data/images/ gfr-app/src/assets/scroll-images`
 
 Remember to commit everything too!
