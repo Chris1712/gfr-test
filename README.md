@@ -1,5 +1,13 @@
 # Gunfire Reborn Test
 
+Test your GFR knowledge!
+
+This project contains setup for scraping data and then the gfr-app
+
+## Building the app
+
+The app is a vite-powered vue project created in Feb 2024 by `npm create vue@latest`
+
 ## Wiki scraping
 
 We need to obtain icons and data from the fandom wiki. I've tried to make this a repeatable process so gameplay updates can be captured:
@@ -38,7 +46,42 @@ Each of the files created has a <tr> for each scroll. Each looks like this:
 </td></tr>
 ```
 
+An example of the second <td> for an enhanced scroll: 
+```
+<td>
+  +10% DMG Resistance and +30% DMG Dealt for 10s whenever you consume 100 ammo.
+  <br><br>
+  <a href="https://gunfirereborn.fandom.com/wiki/Reincarnation" title="Reincarnation">Enhanced</a>
+  (<a href="https://gunfirereborn.fandom.com/wiki/Talents" title="Talents">
+    <img alt="Soul Essence" class="lazyload" data-image-key="Soul_Essence.png" data-image-name="Soul Essence.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/gunfire_reborn/images/b/bd/Soul_Essence.png/revision/latest/scale-to-width-down/24?cb=20200806132723" decoding="async" height="24" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" width="24">
+  </a>
+  <a href="https://gunfirereborn.fandom.com/wiki/Talents" title="Talents">60</a>
+  <sup>
+    <abbr title="Soul Essence is used to upgrade permanent Talents after each run.">?</abbr>
+  </sup>): +10% DMG Resistance and +30% weapon and skill DMG for 3s whenever you consume 10 ammo. 
+</td>
+```
+
 ### 2. Process the data and obtain all the needed resources
 
 Run `process-scraped-html.sh` to use the downloaded html and build a json array holding all of the useful scroll data.
 It also downloads the scroll images.
+
+### 3. Copy the data into the app
+
+If we've got changed data we're interested in:
+
+`mv processed-data/scrolls.json gfr-app/src/assets/`
+`rm -r gfr-app/src/assets/scroll-images && cp -r processed-data/images/ gfr-app/src/assets/scroll-images`
+
+Remember to commit everything too!
+
+
+### TODO
+
+- Finish up the scroll detail component - probably it needs to be provided with an id or something?
+  - Fix up alignment
+  - Maybe add a wiki link
+- Test a deployment once this can show N random scrolls on refresh
+- Look at all scrolls
+- Actually make a quiz - perhaps by selectively hiding component elements?

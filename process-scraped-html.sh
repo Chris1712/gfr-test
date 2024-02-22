@@ -51,13 +51,31 @@ for file in processed-data/tables/*.html; do
     img_url_short=$(echo $img_url_full | grep -o 'http.*\.png')
     echo img_url_short: $img_url_short
 
+    # To set an image title we find everything between / and .png in the url
     img_title=$(echo $img_url_short | grep -o '/[^/]*$')
-    img_title="${img_title:1}"
+    img_title="${img_title:1}" # Trim the leading /
+    img_title="$(echo $img_title | sed 's/%[0-9][0-9]//g')" # remove any percent encoded chars
     echo img_title: $img_title
 
-    desc=$(htmlq -f "$file" --text "tbody > tr:nth-of-type($row) > td:nth-of-type(2)")
-    echo desc: $desc
+    full_desc=$(htmlq -f "$file" "tbody > tr:nth-of-type($row) > td:nth-of-type(2)")
+    echo full_desc: $full_desc
 
+    # If there is a <br> in the full_desc:
+    if [[ $full_desc == *"<br>"* ]]; then
+      # Then we've got a scroll with an enhanced version and we need to do some extra stuff
+      desc=$(echo $full_desc | grep -o '<td>.*<br>' | sed 's/<td>//g' | sed 's/<br>//g')
+      desc_enhanced=$(echo $full_desc | grep -o '</sup>.*</td>' | sed 's/<\/sup>//g' | sed 's/<\/td>//g' | sed 's/\"//g' )
+      desc_enhanced="${desc_enhanced:3}" # Trim the leading 3 chars
+      desc_enhanced="${desc_enhanced::${#desc_enhanced}-1}" # Trim the last char
+      desc_enhanced=\"${desc_enhanced}\" # Wrap in quotes, since it's raw json
+    else
+      # Otherwise we can just use the full_desc as the desc
+      desc=$(htmlq -f "$file" --text "tbody > tr:nth-of-type($row) > td:nth-of-type(2)")
+      desc_enhanced=null
+    fi
+
+    echo desc: $desc
+    echo desc_enhanced: $desc_enhanced
 
     # Create a JSON object for the current row and append it to the output file
     jq --arg type "$type" \
@@ -67,7 +85,8 @@ for file in processed-data/tables/*.html; do
        --arg img_url_short "$img_url_short" \
        --arg img_title "$img_title" \
        --arg desc "$desc" \
-      '. += [{"type": $type, "name": $name, "link": $link, "img_url_full": $img_url_full, "img_url_short": $img_url_short, "img_title": $img_title, "desc": $desc}]' "$output" > "${output}.tmp" && mv "${output}.tmp" "$output"
+       --argjson desc_enhanced "$desc_enhanced" \
+      '. += [{"type": $type, "name": $name, "link": $link, "img_url_full": $img_url_full, "img_url_short": $img_url_short, "img_title": $img_title, "desc": $desc, "desc_enhanced": $desc_enhanced}]' "$output" > "${output}.tmp" && mv "${output}.tmp" "$output"
 
     # Ensure that the image has been downloaded
     img_path=processed-data/images/$img_title
