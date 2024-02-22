@@ -6,7 +6,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/04/No_Discounts.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/04/No_Discounts.png",
     "img_title": "No_Discounts.png",
-    "desc": "The wares on Peddler are 20% more expensive."
+    "desc": "The wares on Peddler are 20% more expensive.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -15,7 +16,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/5b/Inferior_Magazine.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/5b/Inferior_Magazine.png",
     "img_title": "Inferior_Magazine.png",
-    "desc": "Magazine capacity -20%."
+    "desc": "Magazine capacity -20%.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -24,7 +26,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9b/Elemental_Curse.png/revision/latest/scale-to-width-down/64?cb=20200709122305",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9b/Elemental_Curse.png",
     "img_title": "Elemental_Curse.png",
-    "desc": "Exponentially decrease the chance of inflicting elemental effect by weapons."
+    "desc": "Exponentially decrease the chance of inflicting elemental effect by weapons.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -33,7 +36,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/88/Cateye_Sight.png/revision/latest/scale-to-width-down/64?cb=20200709122303",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/88/Cateye_Sight.png",
     "img_title": "Cateye_Sight.png",
-    "desc": "-1x Weapon CritX."
+    "desc": "-1x Weapon CritX.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -42,7 +46,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fb/Old_Belt.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fb/Old_Belt.png",
     "img_title": "Old_Belt.png",
-    "desc": "Ammo capacity -20%."
+    "desc": "Ammo capacity -20%.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -51,7 +56,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d4/Old_Battle_Boots.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d4/Old_Battle_Boots.png",
     "img_title": "Old_Battle_Boots.png",
-    "desc": "+100% DMG taken from Traps and -10% Movement Speed."
+    "desc": "+100% DMG taken from Traps and -10% Movement Speed.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -60,7 +66,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e1/Cursed_Magazine.png/revision/latest/scale-to-width-down/64?cb=20200709122303",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e1/Cursed_Magazine.png",
     "img_title": "Cursed_Magazine.png",
-    "desc": "When reloading, there is a 33% chance to double the ammo consumption."
+    "desc": "When reloading, there is a 33% chance to double the ammo consumption.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -69,7 +76,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6e/Broken_Bullet.png/revision/latest/scale-to-width-down/64?cb=20200709122303",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6e/Broken_Bullet.png",
     "img_title": "Broken_Bullet.png",
-    "desc": "-20% DMG to Shield/Armor."
+    "desc": "-20% DMG to Shield/Armor.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -78,7 +86,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fb/Fragile_Body.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fb/Fragile_Body.png",
     "img_title": "Fragile_Body.png",
-    "desc": "-0.25% DMG Resistance for each 1% HP missing."
+    "desc": "-0.25% DMG Resistance for each 1% HP missing.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -87,7 +96,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fb/Arms_Trafficker.png/revision/latest/scale-to-width-down/64?cb=20200709122303",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fb/Arms_Trafficker.png",
     "img_title": "Arms_Trafficker.png",
-    "desc": "Weapon upgrades cost much more."
+    "desc": "Weapon upgrades cost much more.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -96,7 +106,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/dd/Clumsy_Throw.png/revision/latest/scale-to-width-down/64?cb=20210618151633",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/dd/Clumsy_Throw.png",
     "img_title": "Clumsy_Throw.png",
-    "desc": "When using the secondary skill, its consumption has a 50% chance to increase by 1."
+    "desc": "When using the secondary skill, its consumption has a 50% chance to increase by 1.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -105,7 +116,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/58/Moldy_Bun.png/revision/latest/scale-to-width-down/64?cb=20210618151649",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/58/Moldy_Bun.png",
     "img_title": "Moldy_Bun.png",
-    "desc": "Recover random HP when obtaining buns."
+    "desc": "Recover random HP when obtaining buns.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -114,7 +126,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/11/Broken_Gun.png/revision/latest/scale-to-width-down/64?cb=20210618151705",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/11/Broken_Gun.png",
     "img_title": "Broken_Gun.png",
-    "desc": "15% chance to cause only 1 DMG upon hitting an enemy."
+    "desc": "15% chance to cause only 1 DMG upon hitting an enemy.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -123,7 +136,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4f/Sabotaged_Magazine.png/revision/latest/scale-to-width-down/64?cb=20210618151722",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4f/Sabotaged_Magazine.png",
     "img_title": "Sabotaged_Magazine.png",
-    "desc": "20% chance of losing 1 additional ammo in magazine for each shot."
+    "desc": "20% chance of losing 1 additional ammo in magazine for each shot.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -132,7 +146,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/74/Cowardly_Bully.png/revision/latest/scale-to-width-down/64?cb=20220624044821",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/74/Cowardly_Bully.png",
     "img_title": "Cowardly_Bully.png",
-    "desc": "-30% DMG to Elite monsters."
+    "desc": "-30% DMG to Elite monsters.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -141,7 +156,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/37/Heavy_Burden.png/revision/latest/scale-to-width-down/64?cb=20220624044836",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/37/Heavy_Burden.png",
     "img_title": "Heavy_Burden.png",
-    "desc": "The higher the Max HP and Max shield/armor are, the lower the movement speed is. (Decrease up to 20%)"
+    "desc": "The higher the Max HP and Max shield/armor are, the lower the movement speed is. (Decrease up to 20%)",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -150,7 +166,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/5a/Cautious_Shot.png/revision/latest/scale-to-width-down/64?cb=20220624044847",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/5a/Cautious_Shot.png",
     "img_title": "Cautious_Shot.png",
-    "desc": "Every missing shot causes 1 DMG to yourself. This effect will not knock you down."
+    "desc": "Every missing shot causes 1 DMG to yourself. This effect will not knock you down.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -159,7 +176,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4e/Quack_Doctor.png/revision/latest/scale-to-width-down/64?cb=20230601103018",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4e/Quack_Doctor.png",
     "img_title": "Quack_Doctor.png",
-    "desc": "+30% revive time when reviving teammates."
+    "desc": "+30% revive time when reviving teammates.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -168,7 +186,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/89/Stubborn_Stance.png/revision/latest/scale-to-width-down/64?cb=20230601103054",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/89/Stubborn_Stance.png",
     "img_title": "Stubborn_Stance.png",
-    "desc": "Unable to pick up shared Occult Scrolls from teammates or share Occult Scrolls with teammates."
+    "desc": "Unable to pick up shared Occult Scrolls from teammates or share Occult Scrolls with teammates.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -177,7 +196,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/72/Shared_Adversity.png/revision/latest/scale-to-width-down/64?cb=20230601103029",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/72/Shared_Adversity.png",
     "img_title": "Shared_Adversity.png",
-    "desc": "When a teammate acquired a Cursed Scroll, there is a 50% chance to have the same scroll."
+    "desc": "When a teammate acquired a Cursed Scroll, there is a 50% chance to have the same scroll.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -186,7 +206,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ec/Burden_of_Solitude.png/revision/latest/scale-to-width-down/64?cb=20230601102226",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ec/Burden_of_Solitude.png",
     "img_title": "Burden_of_Solitude.png",
-    "desc": "Takes DMG equal to 50% of your max HP every 15s if there are no teammates within a 15m radius. This damage will not knock you down."
+    "desc": "Takes DMG equal to 50% of your max HP every 15s if there are no teammates within a 15m radius. This damage will not knock you down.",
+    "desc_enhanced": null
   },
   {
     "type": "cursed",
@@ -195,7 +216,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/1a/Struggle_for_Independence.png/revision/latest/scale-to-width-down/64?cb=20230601103045",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/1a/Struggle_for_Independence.png",
     "img_title": "Struggle_for_Independence.png",
-    "desc": "-15% final DMG if there are no teammates within a 15m radius."
+    "desc": "-15% final DMG if there are no teammates within a 15m radius.",
+    "desc_enhanced": null
   },
   {
     "type": "legendary",
@@ -204,7 +226,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/92/Deflection_Shield.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/92/Deflection_Shield.png",
     "img_title": "Deflection_Shield.png",
-    "desc": "-90% DMG taken from enemies 15 meters away; +90% DMG taken from enemies within 15 meters.Enhanced ( 100?): -90% DMG taken from enemies 15 meters away and +90% DMG taken from enemies within 15 meters when holding weapon #1. -90% DMG taken from enemies within 15 meters and +90% DMG taken from enemies 15 meters away when holding weapon #2."
+    "desc": "-90% DMG taken from enemies 15 meters away; +90% DMG taken from enemies within 15 meters.",
+    "desc_enhanced": "-90% DMG taken from enemies 15 meters away and +90% DMG taken from enemies within 15 meters when holding weapon #1. -90% DMG taken from enemies within 15 meters and +90% DMG taken from enemies 15 meters away when holding weapon #2."
   },
   {
     "type": "legendary",
@@ -213,7 +236,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/73/Elemental_Power.png/revision/latest/scale-to-width-down/64?cb=20200616071447",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/73/Elemental_Power.png",
     "img_title": "Elemental_Power.png",
-    "desc": "+25% Elemental DMG; When triggering Elemental Effect, it will be passed to a nearby random enemy.Enhanced ( 100?): +25% Elemental DMG; When triggering Elemental Effect, it will also affect all nearby enemies within 5m of the target."
+    "desc": "+25% Elemental DMG; When triggering Elemental Effect, it will be passed to a nearby random enemy.",
+    "desc_enhanced": "+25% Elemental DMG; When triggering Elemental Effect, it will also affect all nearby enemies within 5m of the target."
   },
   {
     "type": "legendary",
@@ -222,7 +246,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4f/Hawkeye_Sight.png/revision/latest/scale-to-width-down/64?cb=20200709122305",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4f/Hawkeye_Sight.png",
     "img_title": "Hawkeye_Sight.png",
-    "desc": "+2.0x CritX; however, -50% weapon DMG when not triggering a Crit Hit. Weapons with a Scope gain 2x zoom.Enhanced ( 100?): +2x CritX for all weapons. Weapons with a scope gain 2x zoom."
+    "desc": "+2.0x CritX; however, -50% weapon DMG when not triggering a Crit Hit. Weapons with a Scope gain 2x zoom.",
+    "desc_enhanced": "+2x CritX for all weapons. Weapons with a scope gain 2x zoom."
   },
   {
     "type": "legendary",
@@ -231,7 +256,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/be/Mystic_Mirror.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/be/Mystic_Mirror.png",
     "img_title": "Mystic_Mirror.png",
-    "desc": "Alternate between \"Yin\" state and \"Yang\" state every 12s. The \"Yin\" state offers +20% DMG Resistance and \"Yang\" state grants +50% DMG Dealt.Enhanced ( 80?): Apply \"Yang\" status to yourself after dealing DMG to an enemy, which grants +50% weapon & skill DMG for 12s. Apply \"Yin\" status to yourself after taking DMG, which grants +20% DMG Resistance for 12s."
+    "desc": "Alternate between \"Yin\" state and \"Yang\" state every 12s. The \"Yin\" state offers +20% DMG Resistance and \"Yang\" state grants +50% DMG Dealt.",
+    "desc_enhanced": "Apply Yang status to yourself after dealing DMG to an enemy, which grants +50% weapon &amp; skill DMG for 12s. Apply Yin status to yourself after taking DMG, which grants +20% DMG Resistance for 12s."
   },
   {
     "type": "legendary",
@@ -240,7 +266,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c4/Dual-edge.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c4/Dual-edge.png",
     "img_title": "Dual-edge.png",
-    "desc": "Gain 1% DMG dealt and -0.2% DMG Resistance for each enemy you defeat.Enhanced ( 100?): Gain 1% DMG dealt and -0.2% DMG Resistance (up to -20% DMG Resistance) for each enemy you defeat."
+    "desc": "Gain 1% DMG dealt and -0.2% DMG Resistance for each enemy you defeat.",
+    "desc_enhanced": "Gain 1% DMG dealt and -0.2% DMG Resistance (up to -20% DMG Resistance) for each enemy you defeat."
   },
   {
     "type": "legendary",
@@ -249,7 +276,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f2/Deadly_Counter.png/revision/latest/scale-to-width-down/64?cb=20200616071723",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f2/Deadly_Counter.png",
     "img_title": "Deadly_Counter.png",
-    "desc": "After taking damage, all hits will become Crit Hits within 3s.Enhanced ( 100?): After taking damage, all hits will become Crit Hits within 6s."
+    "desc": "After taking damage, all hits will become Crit Hits within 3s.",
+    "desc_enhanced": "After taking damage, all hits will become Crit Hits within 6s."
   },
   {
     "type": "legendary",
@@ -258,7 +286,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e9/Gold_Medal.png/revision/latest/scale-to-width-down/64?cb=20200709122305",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e9/Gold_Medal.png",
     "img_title": "Gold_Medal.png",
-    "desc": "Recover 15% Max Shield/Armor when you use Primary Skill or Dash.Enhanced ( 80?): Recover 15% Max Shield/Armor when you use Primary Skill, Secondary Skill or Dash."
+    "desc": "Recover 15% Max Shield/Armor when you use Primary Skill or Dash.",
+    "desc_enhanced": "Recover 15% Max Shield/Armor when you use Primary Skill, Secondary Skill or Dash."
   },
   {
     "type": "legendary",
@@ -267,7 +296,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/07/Spirit_Feline.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/07/Spirit_Feline.png",
     "img_title": "Spirit_Feline.png",
-    "desc": "-100% DMG Resistance, but DMG taken from each hit won't exceed 14% of total max HP.Enhanced ( 100?): -100% DMG Resistance, but DMG taken from each hit won't exceed 11% of total max HP."
+    "desc": "-100% DMG Resistance, but DMG taken from each hit won't exceed 14% of total max HP.",
+    "desc_enhanced": "-100% DMG Resistance, but DMG taken from each hit won't exceed 11% of total max HP."
   },
   {
     "type": "legendary",
@@ -276,7 +306,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9a/Deadly_Curse.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9a/Deadly_Curse.png",
     "img_title": "Deadly_Curse.png",
-    "desc": "+75% weapon DMG and skill DMG; -75% Max HP.Enhanced ( 60?): +75% weapon DMG and skill DMG; -2% HP every second when your HP is greater than 25% of your max HP."
+    "desc": "+75% weapon DMG and skill DMG; -75% Max HP.",
+    "desc_enhanced": "+75% weapon DMG and skill DMG; -2% HP every second when your HP is greater than 25% of your max HP."
   },
   {
     "type": "legendary",
@@ -285,7 +316,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/92/Penetration_Bullet.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/92/Penetration_Bullet.png",
     "img_title": "Penetration_Bullet.png",
-    "desc": "Crits deal 50% DMG directly to enemy's HP rather than Shield or Armor.Enhanced ( 100?): Crit hits deal full DMG directly to enemy's HP rather than Shield/Armor."
+    "desc": "Crits deal 50% DMG directly to enemy's HP rather than Shield or Armor.",
+    "desc_enhanced": "Crit hits deal full DMG directly to enemy's HP rather than Shield/Armor."
   },
   {
     "type": "legendary",
@@ -294,7 +326,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/43/Unfettered_Will.png/revision/latest/scale-to-width-down/64?cb=20200616071915",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/43/Unfettered_Will.png",
     "img_title": "Unfettered_Will.png",
-    "desc": "+2% weapon DMG for every 100 copper you currently have.Enhanced ( 60?): +4% weapon DMG for every 100 copper you currently have."
+    "desc": "+2% weapon DMG for every 100 copper you currently have.",
+    "desc_enhanced": "+4% weapon DMG for every 100 copper you currently have."
   },
   {
     "type": "legendary",
@@ -303,7 +336,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c2/Lightless_Shield.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c2/Lightless_Shield.png",
     "img_title": "Lightless_Shield.png",
-    "desc": "Gain 3 stacks of Lightless Shield every 30s. Each stack negates incoming DMG and is consumed afterwards. You can only have up to 3 stacks at any given time.Enhanced ( 100?): Gain 4 stacks of Lightless Shield every 30s. Each stack negates incoming DMG and is consumed afterwards. You can only have up to 4 stacks at any given time."
+    "desc": "Gain 3 stacks of Lightless Shield every 30s. Each stack negates incoming DMG and is consumed afterwards. You can only have up to 3 stacks at any given time.",
+    "desc_enhanced": "Gain 4 stacks of Lightless Shield every 30s. Each stack negates incoming DMG and is consumed afterwards. You can only have up to 4 stacks at any given time."
   },
   {
     "type": "legendary",
@@ -312,7 +346,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8a/Phantom_Skin.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8a/Phantom_Skin.png",
     "img_title": "Phantom_Skin.png",
-    "desc": "Gain 1 stack of Phantom Skin every 10s. A stack is consumed whenever you take DMG, restoring 30% of your Shield/Armor. You can only have up to 3 stacks of Phantom Skin at any given time.Enhanced ( 100?): Gain 1 stack of Phantom Skin every 10s. A stack is consumed whenever you take DMG, restoring 100% of your Shield/Armor. You can only have up to 3 stacks of Phantom Skin at any given time."
+    "desc": "Gain 1 stack of Phantom Skin every 10s. A stack is consumed whenever you take DMG, restoring 30% of your Shield/Armor. You can only have up to 3 stacks of Phantom Skin at any given time.",
+    "desc_enhanced": "Gain 1 stack of Phantom Skin every 10s. A stack is consumed whenever you take DMG, restoring 100% of your Shield/Armor. You can only have up to 3 stacks of Phantom Skin at any given time."
   },
   {
     "type": "legendary",
@@ -321,7 +356,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fe/Flowing_Time.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fe/Flowing_Time.png",
     "img_title": "Flowing_Time.png",
-    "desc": "-1s for all remaining cooldowns on hit (triggered once every 2s).Enhanced ( 100?): -1s for all remaining cooldowns on hit (triggered once every 1s)."
+    "desc": "-1s for all remaining cooldowns on hit (triggered once every 2s).",
+    "desc_enhanced": "-1s for all remaining cooldowns on hit (triggered once every 1s)."
   },
   {
     "type": "legendary",
@@ -330,7 +366,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6c/Advanced_Depot.png/revision/latest/scale-to-width-down/64?cb=20200709122302",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6c/Advanced_Depot.png",
     "img_title": "Advanced_Depot.png",
-    "desc": "Use reserve ammo first rather than magazine when shooting. There is a 50% chance to consume double ammo.Enhanced ( 100?): Use reserve ammo first rather than magazine when shooting."
+    "desc": "Use reserve ammo first rather than magazine when shooting. There is a 50% chance to consume double ammo.",
+    "desc_enhanced": "Use reserve ammo first rather than magazine when shooting."
   },
   {
     "type": "legendary",
@@ -339,7 +376,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4e/Speedy_Pursuit.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4e/Speedy_Pursuit.png",
     "img_title": "Speedy_Pursuit.png",
-    "desc": "+50% Lucky Shot Chance for 2s after dashing.Enhanced ( 80?): +50% Lucky Shot Chance for 2s after dashing; -1s Dash cooldown after inflicting a lucky shot."
+    "desc": "+50% Lucky Shot Chance for 2s after dashing.",
+    "desc_enhanced": "+50% Lucky Shot Chance for 2s after dashing; -1s Dash cooldown after inflicting a lucky shot."
   },
   {
     "type": "legendary",
@@ -348,7 +386,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3d/Merciless_Strike.png/revision/latest/scale-to-width-down/64?cb=20200709122323",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3d/Merciless_Strike.png",
     "img_title": "Merciless_Strike.png",
-    "desc": "+50% Lucky Shot Chance on Crit Hit, -50% Lucky Shot Chance on Normal Hit.Enhanced ( 100?): +50% Lucky Shot Chance on a Crit Hit; +0.5x CritX on a Lucky Shot."
+    "desc": "+50% Lucky Shot Chance on Crit Hit, -50% Lucky Shot Chance on Normal Hit.",
+    "desc_enhanced": "+50% Lucky Shot Chance on a Crit Hit; +0.5x CritX on a Lucky Shot."
   },
   {
     "type": "legendary",
@@ -357,7 +396,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f9/Heavy_Shield.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f9/Heavy_Shield.png",
     "img_title": "Heavy_Shield.png",
-    "desc": "When hit by enemies, -10% Movement Speed for 10s. 40% chance to immune to all DMG (25% from Elite and Boss).Enhanced ( 80?): When hit by enemies, 50% chance to immune to all DMG (30% from Elite and Boss)."
+    "desc": "When hit by enemies, -10% Movement Speed for 10s. 40% chance to immune to all DMG (25% from Elite and Boss).",
+    "desc_enhanced": "When hit by enemies, 50% chance to immune to all DMG (30% from Elite and Boss)."
   },
   {
     "type": "legendary",
@@ -366,7 +406,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/70/Backup_Shield.png/revision/latest/scale-to-width-down/64?cb=20200709122303",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/70/Backup_Shield.png",
     "img_title": "Backup_Shield.png",
-    "desc": "Recover 40% Shield/Armor instantly when the shield/armor is broken. (Cooldown: 10s)Enhanced ( 80?): Recover 100% Shield/Armor instantly when the shield/armor is broken. (Cooldown: 5s)"
+    "desc": "Recover 40% Shield/Armor instantly when the shield/armor is broken. (Cooldown: 10s)",
+    "desc_enhanced": "Recover 100% Shield/Armor instantly when the shield/armor is broken. (Cooldown: 5s)"
   },
   {
     "type": "legendary",
@@ -375,7 +416,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e1/Airbag.png/revision/latest/scale-to-width-down/64?cb=20200709122303",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e1/Airbag.png",
     "img_title": "Airbag.png",
-    "desc": "-4% HP per second when your Shield/Armor is full. Recover 100% HP and negate excess DMG when your Shield/Armor gets fully broken.Enhanced ( 80?): -4% HP per second when your Shield/Armor is more than 0. Recover 100% HP and negate excess DMG when your Shield/Armor gets broken."
+    "desc": "-4% HP per second when your Shield/Armor is full. Recover 100% HP and negate excess DMG when your Shield/Armor gets fully broken.",
+    "desc_enhanced": "-4% HP per second when your Shield/Armor is more than 0. Recover 100% HP and negate excess DMG when your Shield/Armor gets broken."
   },
   {
     "type": "legendary",
@@ -384,7 +426,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/0e/Merciless_Combo.png/revision/latest/scale-to-width-down/64?cb=20200616072551",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/0e/Merciless_Combo.png",
     "img_title": "Merciless_Combo.png",
-    "desc": "+15% weapon DMG for 2s whenever hitting the enemy (Can be stacked up to 50 times).Enhanced ( 80?): +15% weapon DMG for 3s whenever hitting the enemy (Can be stacked up to 50 times)."
+    "desc": "+15% weapon DMG for 2s whenever hitting the enemy (Can be stacked up to 50 times).",
+    "desc_enhanced": "+15% weapon DMG for 3s whenever hitting the enemy (Can be stacked up to 50 times)."
   },
   {
     "type": "legendary",
@@ -393,7 +436,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2a/Fish_or_Bear_Paw.png/revision/latest/scale-to-width-down/64?cb=20200731001916",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2a/Fish_or_Bear_Paw.png",
     "img_title": "Fish_or_Bear_Paw.png",
-    "desc": "When shooting, there is a 100% chance (reduced by 3.5% per projectile) to deal -50% Total DMG but deal extra DMG once.Enhanced ( 60?): When shooting, there is a 100% chance (reduced by 3.5% per projectile) to deal -20% Total DMG but deal extra DMG once."
+    "desc": "When shooting, there is a 100% chance (reduced by 3.5% per projectile) to deal -50% Total DMG but deal extra DMG once.",
+    "desc_enhanced": "When shooting, there is a 100% chance (reduced by 3.5% per projectile) to deal -20% Total DMG but deal extra DMG once."
   },
   {
     "type": "legendary",
@@ -402,7 +446,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/62/Energy_Storage.png/revision/latest/scale-to-width-down/64?cb=20210131090754",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/62/Energy_Storage.png",
     "img_title": "Energy_Storage.png",
-    "desc": "Primary Skill Capacity +1, but cooldown +30% (cannot be discarded).Enhanced ( 100?): Primary Skill Capacity +2 (cannot be discarded)."
+    "desc": "Primary Skill Capacity +1, but cooldown +30% (cannot be discarded).",
+    "desc_enhanced": "Primary Skill Capacity +2 (cannot be discarded)."
   },
   {
     "type": "legendary",
@@ -411,7 +456,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2d/Stone_Skin.png/revision/latest/scale-to-width-down/64?cb=20210925130658",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2d/Stone_Skin.png",
     "img_title": "Stone_Skin.png",
-    "desc": "+30% DMG Resistance for 3s upon taking DMG. (Does not stack)Enhanced ( 80?): +30% DMG Resistance 3 times after taking DMG. (Un-stackable)"
+    "desc": "+30% DMG Resistance for 3s upon taking DMG. (Does not stack)",
+    "desc_enhanced": "+30% DMG Resistance 3 times after taking DMG. (Un-stackable)"
   },
   {
     "type": "legendary",
@@ -420,7 +466,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/bd/Premium_Membership.png/revision/latest/scale-to-width-down/64?cb=20210925130713",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/bd/Premium_Membership.png",
     "img_title": "Premium_Membership.png",
-    "desc": "Whenever you spend copper, gain 30% of it back.Enhanced ( ??): Whenever you spend copper, there is a 25% chance to gain 100% copper consumed back, and a 75% chance to gain 30% copper consumed back."
+    "desc": "Whenever you spend copper, gain 30% of it back.",
+    "desc_enhanced": "Whenever you spend copper, there is a 25% chance to gain 100% copper consumed back, and a 75% chance to gain 30% copper consumed back."
   },
   {
     "type": "legendary",
@@ -429,7 +476,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fd/Spirit_Bible.png/revision/latest/scale-to-width-down/64?cb=20210925130725",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fd/Spirit_Bible.png",
     "img_title": "Spirit_Bible.png",
-    "desc": "+120% Skill DMG.Enhanced ( 100?): +120% Skill DMG, and for every Occult Scroll you own, +3% Skill DMG."
+    "desc": "+120% Skill DMG.",
+    "desc_enhanced": "+120% Skill DMG, and for every Occult Scroll you own, +3% Skill DMG."
   },
   {
     "type": "legendary",
@@ -438,7 +486,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9e/Elemental_Magazine.png/revision/latest/scale-to-width-down/64?cb=20211118110221",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9e/Elemental_Magazine.png",
     "img_title": "Elemental_Magazine.png",
-    "desc": "Deals an additional 50% DMG when Weapon DMG causes an elemental effect.Enhanced ( 100?): Deals an additional 50% DMG when Weapon DMG causes an elemental effect/Crit Hit/Lucky Shot."
+    "desc": "Deals an additional 50% DMG when Weapon DMG causes an elemental effect.",
+    "desc_enhanced": "Deals an additional 50% DMG when Weapon DMG causes an elemental effect/Crit Hit/Lucky Shot."
   },
   {
     "type": "legendary",
@@ -447,7 +496,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/26/Reasonable_Luck.png/revision/latest/scale-to-width-down/64?cb=20211118110240",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/26/Reasonable_Luck.png",
     "img_title": "Reasonable_Luck.png",
-    "desc": "+80% Lucky Shot Chance. But total Lucky Shot Chance won't exceed 150%.Enhanced ( ??): +80% Lucky Shot Chance."
+    "desc": "+80% Lucky Shot Chance. But total Lucky Shot Chance won't exceed 150%.",
+    "desc_enhanced": "+80% Lucky Shot Chance."
   },
   {
     "type": "legendary",
@@ -456,7 +506,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c9/Rich%27s_Privileges.png/revision/latest/scale-to-width-down/64?cb=20211118110314",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c9/Rich%27s_Privileges.png",
     "img_title": "Richs_Privileges.png",
-    "desc": "Every time your skill deals DMG, it will inflict additional skill DMG based on how much copper you currently own. (For each enemy, the additional skill DMG occurs up to 1 time every 3s.)Enhanced ( 100?): Every time your skill deals DMG, it will inflict additional skill DMG based on how much copper you currently own. (For each enemy, the additional skill DMG occurs up to 1 time every 2s.)"
+    "desc": "Every time your skill deals DMG, it will inflict additional skill DMG based on how much copper you currently own. (For each enemy, the additional skill DMG occurs up to 1 time every 3s.)",
+    "desc_enhanced": "Every time your skill deals DMG, it will inflict additional skill DMG based on how much copper you currently own. (For each enemy, the additional skill DMG occurs up to 1 time every 2s.)"
   },
   {
     "type": "legendary",
@@ -465,7 +516,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/05/Overwhelming_Shield.png/revision/latest/scale-to-width-down/64?cb=20211118110330",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/05/Overwhelming_Shield.png",
     "img_title": "Overwhelming_Shield.png",
-    "desc": "Shield recovery will not be stopped but -50% Recovery Speed.Enhanced ( 100?): Shield recovery will not be stopped but -25% Recovery Speed."
+    "desc": "Shield recovery will not be stopped but -50% Recovery Speed.",
+    "desc_enhanced": "Shield recovery will not be stopped but -25% Recovery Speed."
   },
   {
     "type": "legendary",
@@ -474,7 +526,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/cb/Break_the_Ice.png/revision/latest/scale-to-width-down/64?cb=20220624044627",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/cb/Break_the_Ice.png",
     "img_title": "Break_the_Ice.png",
-    "desc": "- Lv1 on a random Ascension, and gain 5 Occult Scrolls. (At least 1 Legend Scroll)Enhanced ( 120?): - Lv1 on a random Ascension, and gain 5 Occult Scrolls. (At least 3 Legend Scroll)"
+    "desc": "- Lv1 on a random Ascension, and gain 5 Occult Scrolls. (At least 1 Legend Scroll)",
+    "desc_enhanced": "- Lv1 on a random Ascension, and gain 5 Occult Scrolls. (At least 3 Legend Scroll)"
   },
   {
     "type": "legendary",
@@ -483,7 +536,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/02/Extravagant_Consumption.png/revision/latest/scale-to-width-down/64?cb=20220624044756",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/02/Extravagant_Consumption.png",
     "img_title": "Extravagant_Consumption.png",
-    "desc": "+1% All DMG for every 100 copper spent. If you bring over 500 copper to the next stage, the excessive part will be spent automatically.Enhanced ( ??): +1% All DMG for every 100 copper spent in the entire run. If you bring over 500 copper to the next stage, the excessive part will be spent automatically."
+    "desc": "+1% All DMG for every 100 copper spent. If you bring over 500 copper to the next stage, the excessive part will be spent automatically.",
+    "desc_enhanced": "+1% All DMG for every 100 copper spent in the entire run. If you bring over 500 copper to the next stage, the excessive part will be spent automatically."
   },
   {
     "type": "legendary",
@@ -492,7 +546,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/b2/Iron_Circuit.png/revision/latest/scale-to-width-down/64?cb=20230601102313",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/b2/Iron_Circuit.png",
     "img_title": "Iron_Circuit.png",
-    "desc": "+25% DMG Resistance. +5% additional DMG Resistance for each teammate carrying the [Iron Circuit]. When taking DMG, teammates carrying [Iron Circuit] will share 30% of the final DMG. This damage will not knock the teammate down. (CD: 5s)Enhanced ( ??): +25% DMG Resistance, and +5% additional DMG Resistance for having one teammate. When taking DMG, teammates carrying [Iron Circuit] will share 30% of the total DMG. This damage will not knock the teammate down. (CD: 5s) Reduces the DMG from [Iron Circuit] taken by yourself to 0."
+    "desc": "+25% DMG Resistance. +5% additional DMG Resistance for each teammate carrying the [Iron Circuit]. When taking DMG, teammates carrying [Iron Circuit] will share 30% of the final DMG. This damage will not knock the teammate down. (CD: 5s)",
+    "desc_enhanced": "+25% DMG Resistance, and +5% additional DMG Resistance for having one teammate. When taking DMG, teammates carrying [Iron Circuit] will share 30% of the total DMG. This damage will not knock the teammate down. (CD: 5s) Reduces the DMG from [Iron Circuit] taken by yourself to 0."
   },
   {
     "type": "legendary",
@@ -501,7 +556,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e5/Explosive_Magazine.png/revision/latest/scale-to-width-down/64?cb=20230601102258",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e5/Explosive_Magazine.png",
     "img_title": "Explosive_Magazine.png",
-    "desc": "Reloading deals current Weapon DMG to enemies within an 8m radius. For every 0.5s spent reloading, an additional DMG is dealt. (CD: 3s)Enhanced ( ??): Reloading deals current Weapon DMG to enemies within an 8m radius. An additional DMG is dealt for every 0.5s spent reloading, and another additional DMG is dealt when reloading is completed. (CD: 3s)"
+    "desc": "Reloading deals current Weapon DMG to enemies within an 8m radius. For every 0.5s spent reloading, an additional DMG is dealt. (CD: 3s)",
+    "desc_enhanced": "Reloading deals current Weapon DMG to enemies within an 8m radius. An additional DMG is dealt for every 0.5s spent reloading, and another additional DMG is dealt when reloading is completed. (CD: 3s)"
   },
   {
     "type": "legendary",
@@ -510,7 +566,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/b5/Masterful_Craftsmanship.png/revision/latest/scale-to-width-down/64?cb=20230601102947",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/b5/Masterful_Craftsmanship.png",
     "img_title": "Masterful_Craftsmanship.png",
-    "desc": "Acquired weapons always have 2 Exclusive Inscriptions. The maximum number of Exclusive Inscriptions is fixed at 2, and the total Inscription upper limit is fixed at 4 (cannot be discarded).Enhanced ( ??): Acquired weapons have a minimum of 2 Exclusive Inscriptions (cannot be discarded)."
+    "desc": "Acquired weapons always have 2 Exclusive Inscriptions. The maximum number of Exclusive Inscriptions is fixed at 2, and the total Inscription upper limit is fixed at 4 (cannot be discarded).",
+    "desc_enhanced": "Acquired weapons have a minimum of 2 Exclusive Inscriptions (cannot be discarded)."
   },
   {
     "type": "legendary",
@@ -519,7 +576,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/5d/Convergent_Paths.png/revision/latest/scale-to-width-down/64?cb=20230601102250",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/5d/Convergent_Paths.png",
     "img_title": "Convergent_Paths.png",
-    "desc": "After using a Weapon Skill, +40% Weapon DMG and -25% Skill DMG for 10s. After using the primary skill, +50% Skill DMG and -20% Weapon DMG for 10s. When both effects are active at the same time, the buff effect is doubled, and the debuff effect is removed.Enhanced ( ??): After using the Weapon Skill, +80% Weapon DMG for 10s. After using the primary skill, +80% Skill DMG for 10s."
+    "desc": "After using a Weapon Skill, +40% Weapon DMG and -25% Skill DMG for 10s. After using the primary skill, +50% Skill DMG and -20% Weapon DMG for 10s. When both effects are active at the same time, the buff effect is doubled, and the debuff effect is removed.",
+    "desc_enhanced": "After using the Weapon Skill, +80% Weapon DMG for 10s. After using the primary skill, +80% Skill DMG for 10s."
   },
   {
     "type": "normal",
@@ -528,7 +586,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/30/Brutal_Gloves.png/revision/latest/scale-to-width-down/64?cb=20200612012652",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/30/Brutal_Gloves.png",
     "img_title": "Brutal_Gloves.png",
-    "desc": "+35% Weapon/Skill DMG to non Crit-Hits.Enhanced ( 60?): +50% weapon DMG and skill DMG."
+    "desc": "+35% Weapon/Skill DMG to non Crit-Hits.",
+    "desc_enhanced": "+50% weapon DMG and skill DMG."
   },
   {
     "type": "normal",
@@ -537,7 +596,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/67/On_the_House.png/revision/latest/scale-to-width-down/64?cb=20200612012849",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/67/On_the_House.png",
     "img_title": "On_the_House.png",
-    "desc": "Your first purchase at any Peddler does not cost any copper.Enhanced ( 60?): Your first purchase at any Peddler does not cost any copper; A random item at the Spiritual Remnant & Phantom Peddler does not cost any soul essence."
+    "desc": "Your first purchase at any Peddler does not cost any copper.",
+    "desc_enhanced": "Your first purchase at any Peddler does not cost any copper; A random item at the Spiritual Remnant &amp; Phantom Peddler does not cost any soul essence."
   },
   {
     "type": "normal",
@@ -546,7 +606,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/72/Perfect_Sixth.png/revision/latest/scale-to-width-down/64?cb=20200612012902",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/72/Perfect_Sixth.png",
     "img_title": "Perfect_Sixth.png",
-    "desc": "Every sixth shot gains +80% DMG (Count is reset when reloading).Enhanced ( 60?): Every sixth shot gains +160% DMG."
+    "desc": "Every sixth shot gains +80% DMG (Count is reset when reloading).",
+    "desc_enhanced": "Every sixth shot gains +160% DMG."
   },
   {
     "type": "normal",
@@ -555,7 +616,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/97/Improved_Clip.png/revision/latest/scale-to-width-down/64?cb=20200612012830",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/97/Improved_Clip.png",
     "img_title": "Improved_Clip.png",
-    "desc": "Whenever an ammo pack is picked up, it directly refills the magazine instead of reserve ammo, and increases your Movement Speed by 25% until next reload.Enhanced ( 60?): Whenever an ammo pack is picked up, it directly refills the magazine instead of reserve ammo, and increases your Movement Speed by 25% and Weapon DMG by 50% until next reload."
+    "desc": "Whenever an ammo pack is picked up, it directly refills the magazine instead of reserve ammo, and increases your Movement Speed by 25% until next reload.",
+    "desc_enhanced": "Whenever an ammo pack is picked up, it directly refills the magazine instead of reserve ammo, and increases your Movement Speed by 25% and Weapon DMG by 50% until next reload."
   },
   {
     "type": "normal",
@@ -564,7 +626,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/ce/Preemptive_Strike.png/revision/latest/scale-to-width-down/64?cb=20200612012907",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/ce/Preemptive_Strike.png",
     "img_title": "Preemptive_Strike.png",
-    "desc": "+50% Weapon DMG if magazine is full.Enhanced ( 40?): +60% weapon DMG for the first 30% ammo in the magazine, including the first shot."
+    "desc": "+50% Weapon DMG if magazine is full.",
+    "desc_enhanced": "+60% weapon DMG for the first 30% ammo in the magazine, including the first shot."
   },
   {
     "type": "normal",
@@ -573,7 +636,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/02/Bluff.png/revision/latest/scale-to-width-down/64?cb=20200612012639",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/02/Bluff.png",
     "img_title": "Bluff.png",
-    "desc": "+25% DMG Dealt when your HP is full.Enhanced ( 40?): +50% DMG Dealt when your HP is full."
+    "desc": "+25% DMG Dealt when your HP is full.",
+    "desc_enhanced": "+50% DMG Dealt when your HP is full."
   },
   {
     "type": "normal",
@@ -582,7 +646,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/7a/Resolute.png/revision/latest/scale-to-width-down/64?cb=20200612012918",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/7a/Resolute.png",
     "img_title": "Resolute.png",
-    "desc": "+50% Movement Speed and +50% DMG when your Shield/Armor is 0. +300% shield rest time before recharging.Enhanced ( 60?): +50% Movement Speed and +50% DMG for at least 10s when your Shield/Armor is 0."
+    "desc": "+50% Movement Speed and +50% DMG when your Shield/Armor is 0. +300% shield rest time before recharging.",
+    "desc_enhanced": "+50% Movement Speed and +50% DMG for at least 10s when your Shield/Armor is 0."
   },
   {
     "type": "normal",
@@ -591,7 +656,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/44/Elemental_Relic.png/revision/latest/scale-to-width-down/64?cb=20200616071429",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/44/Elemental_Relic.png",
     "img_title": "Elemental_Relic.png",
-    "desc": "+5% Elemental DMG for 10s whenever you kill an enemy affected by Elemental Effect.Enhanced ( 40?): +5% Elemental DMG & +5% Elemental Effect Chance for 10s whenever you kill an enemy affected by Elemental Effect."
+    "desc": "+5% Elemental DMG for 10s whenever you kill an enemy affected by Elemental Effect.",
+    "desc_enhanced": "+5% Elemental DMG &amp; +5% Elemental Effect Chance for 10s whenever you kill an enemy affected by Elemental Effect."
   },
   {
     "type": "normal",
@@ -600,7 +666,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/18/Elemental_Bestowment.png/revision/latest/scale-to-width-down/64?cb=20200612012744",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/18/Elemental_Bestowment.png",
     "img_title": "Elemental_Bestowment.png",
-    "desc": "Recover 1% Max HP and 5 ammo of the currently used weapon whenever you deal Elemental Effect to enemies. (CD: 1s)Enhanced ( 60?): Recover 1% Max HP, 1% Shield/Armor and 5 ammo directly to the magazine whenever you deal Elemental Effect to enemies. (CD: 1s)"
+    "desc": "Recover 1% Max HP and 5 ammo of the currently used weapon whenever you deal Elemental Effect to enemies. (CD: 1s)",
+    "desc_enhanced": "Recover 1% Max HP, 1% Shield/Armor and 5 ammo directly to the magazine whenever you deal Elemental Effect to enemies. (CD: 1s)"
   },
   {
     "type": "normal",
@@ -609,7 +676,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d2/Double_Exhilaration.png/revision/latest/scale-to-width-down/64?cb=20200612012736",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d2/Double_Exhilaration.png",
     "img_title": "Double_Exhilaration.png",
-    "desc": "Secondary skill Capacity gets doubled.Enhanced ( 60?): Secondary Skill Capacity gets doubled, and there's a 50% chance to not consume any use upon using secondary skill."
+    "desc": "Secondary skill Capacity gets doubled.",
+    "desc_enhanced": "Secondary Skill Capacity gets doubled, and there's a 50% chance to not consume any use upon using secondary skill."
   },
   {
     "type": "normal",
@@ -618,7 +686,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f1/Terminal_Lucidity.png/revision/latest/scale-to-width-down/64?cb=20200616071518",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f1/Terminal_Lucidity.png",
     "img_title": "Terminal_Lucidity.png",
-    "desc": "Reset the cooldown of all skills when you lose over 20% Total Max HP in a single hit (CD: 2s).Enhanced ( 60?): Reset the cooldown of all skills and temporarily gain 1 Primary Skill charge (cannot not be stacked), when you lose over 20% Total Max HP in a single hit (CD: 2s)."
+    "desc": "Reset the cooldown of all skills when you lose over 20% Total Max HP in a single hit (CD: 2s).",
+    "desc_enhanced": "Reset the cooldown of all skills and temporarily gain 1 Primary Skill charge (cannot not be stacked), when you lose over 20% Total Max HP in a single hit (CD: 2s)."
   },
   {
     "type": "normal",
@@ -627,7 +696,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d9/Elemental_Cube.png/revision/latest/scale-to-width-down/64?cb=20200616071619",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d9/Elemental_Cube.png",
     "img_title": "Elemental_Cube.png",
-    "desc": "A random element will be selected after reloading. Increase corresponding elemental DMG by 50%.Enhanced ( 40?): +50% elemental DMG and doubles the elemental effect chance for 2 random elements. The elements change on reload."
+    "desc": "A random element will be selected after reloading. Increase corresponding elemental DMG by 50%.",
+    "desc_enhanced": "+50% elemental DMG and doubles the elemental effect chance for 2 random elements. The elements change on reload."
   },
   {
     "type": "normal",
@@ -636,7 +706,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/36/Devil%27s_Covenant.png/revision/latest/scale-to-width-down/64?cb=20200612012724",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/36/Devil%27s_Covenant.png",
     "img_title": "Devils_Covenant.png",
-    "desc": "-50% Max HP, +50% copper gained with this scroll.Enhanced ( 60?): +50% copper gained with this scroll."
+    "desc": "-50% Max HP, +50% copper gained with this scroll.",
+    "desc_enhanced": "+50% copper gained with this scroll."
   },
   {
     "type": "normal",
@@ -645,7 +716,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fc/Ammo_Belt.png/revision/latest/scale-to-width-down/64?cb=20200612012630",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/fc/Ammo_Belt.png",
     "img_title": "Ammo_Belt.png",
-    "desc": "Ammo Capacity gets doubled.Enhanced ( 20?): +150% Ammo Capacity."
+    "desc": "Ammo Capacity gets doubled.",
+    "desc_enhanced": "+150% Ammo Capacity."
   },
   {
     "type": "normal",
@@ -654,7 +726,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/0a/Snow_Boots.png/revision/latest/scale-to-width-down/64?cb=20200612012924",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/0a/Snow_Boots.png",
     "img_title": "Snow_Boots.png",
-    "desc": "Gain immunity to the Slows and -50% DMG taken from traps.Enhanced ( 100?): Gain immunity to the Slow Effects and DMG taken from traps."
+    "desc": "Gain immunity to the Slows and -50% DMG taken from traps.",
+    "desc_enhanced": "Gain immunity to the Slow Effects and DMG taken from traps."
   },
   {
     "type": "normal",
@@ -663,7 +736,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/73/Magic_Magazine.png/revision/latest/scale-to-width-down/64?cb=20200616071800",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/73/Magic_Magazine.png",
     "img_title": "Magic_Magazine.png",
-    "desc": "When reloading, there is a 33% chance of not consuming reserve ammo and +30% weapon DMG for the reloaded magazine.Enhanced ( 80?): When reloading, there is a 33% chance not to consume reserve ammo, replenishment equivalent to the magazine capacity is added into reserve ammo, and +30% weapon DMG for the reloaded magazine"
+    "desc": "When reloading, there is a 33% chance of not consuming reserve ammo and +30% weapon DMG for the reloaded magazine.",
+    "desc_enhanced": "When reloading, there is a 33% chance not to consume reserve ammo, replenishment equivalent to the magazine capacity is added into reserve ammo, and +30% weapon DMG for the reloaded magazine"
   },
   {
     "type": "normal",
@@ -672,7 +746,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/74/Genesis.png/revision/latest/scale-to-width-down/64?cb=20200616071816",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/74/Genesis.png",
     "img_title": "Genesis.png",
-    "desc": "When shooting, there is a 20% chance to add extra ammo into the magazine.Enhanced ( 80?): When shooting, there is a 30% chance to add extra ammo into the magazine."
+    "desc": "When shooting, there is a 20% chance to add extra ammo into the magazine.",
+    "desc_enhanced": "When shooting, there is a 30% chance to add extra ammo into the magazine."
   },
   {
     "type": "normal",
@@ -681,7 +756,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8a/Rock-Hard_Determination.png/revision/latest/scale-to-width-down/64?cb=20200616071936",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8a/Rock-Hard_Determination.png",
     "img_title": "Rock-Hard_Determination.png",
-    "desc": "+50% DMG while being stationary. (Gradually decreases to 0% over 4s)Enhanced ( 60?): +80% DMG while being stationary; the bonus will remain for 4s after moving."
+    "desc": "+50% DMG while being stationary. (Gradually decreases to 0% over 4s)",
+    "desc_enhanced": "+80% DMG while being stationary; the bonus will remain for 4s after moving."
   },
   {
     "type": "normal",
@@ -690,7 +766,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c9/Persistent.png/revision/latest/scale-to-width-down/64?cb=20200616071952",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c9/Persistent.png",
     "img_title": "Persistent.png",
-    "desc": "+0.5% DMG Resistance for every 1% HP missing.Enhanced ( 20?): +0.8% DMG Resistance for every 1% total HP missing."
+    "desc": "+0.5% DMG Resistance for every 1% HP missing.",
+    "desc_enhanced": "+0.8% DMG Resistance for every 1% total HP missing."
   },
   {
     "type": "normal",
@@ -699,7 +776,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/40/Abnormal_Speed.png/revision/latest/scale-to-width-down/64?cb=20200612012409",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/40/Abnormal_Speed.png",
     "img_title": "Abnormal_Speed.png",
-    "desc": "+3% Movement Speed for every 10% Shield/Armor you currently have.Enhanced ( 20?): +5% Movement Speed for every 10% total HP you currently have."
+    "desc": "+3% Movement Speed for every 10% Shield/Armor you currently have.",
+    "desc_enhanced": "+5% Movement Speed for every 10% total HP you currently have."
   },
   {
     "type": "normal",
@@ -708,7 +786,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d0/Mid-Air_Strike.png/revision/latest/scale-to-width-down/64?cb=20200616072155",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d0/Mid-Air_Strike.png",
     "img_title": "Mid-Air_Strike.png",
-    "desc": "+50% DMG Dealt while in the air.Enhanced ( 80?): +50% Weapon and skill DMG and -90% DMG taken while in mid-air."
+    "desc": "+50% DMG Dealt while in the air.",
+    "desc_enhanced": "+50% Weapon and skill DMG and -90% DMG taken while in mid-air."
   },
   {
     "type": "normal",
@@ -717,7 +796,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/41/Advanced_Joggers.png/revision/latest/scale-to-width-down/64?cb=20200612012538",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/41/Advanced_Joggers.png",
     "img_title": "Advanced_Joggers.png",
-    "desc": "-50% Dash cooldown.Enhanced ( 60?): -50% Dash cooldown, and has a 33% chance to reset Dash cooldown while using it."
+    "desc": "-50% Dash cooldown.",
+    "desc_enhanced": "-50% Dash cooldown, and has a 33% chance to reset Dash cooldown while using it."
   },
   {
     "type": "normal",
@@ -726,7 +806,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ed/Bullet_Bank.png/revision/latest/scale-to-width-down/64?cb=20200612012700",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ed/Bullet_Bank.png",
     "img_title": "Bullet_Bank.png",
-    "desc": "All picked up ammo will automatically convert to the currently equipped weapons type.Enhanced ( 40?): All picked up ammo will automatically convert to the currently equipped weapon's type, and gain 3 copper."
+    "desc": "All picked up ammo will automatically convert to the currently equipped weapons type.",
+    "desc_enhanced": "All picked up ammo will automatically convert to the currently equipped weapon's type, and gain 3 copper."
   },
   {
     "type": "normal",
@@ -735,7 +816,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/dc/Gourmet.png/revision/latest/scale-to-width-down/64?cb=20200612012824",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/dc/Gourmet.png",
     "img_title": "Gourmet.png",
-    "desc": "Buns now recover full HP.Enhanced ( 40?): Buns now recover full HP, and +50 Max Shield/Armor for 20s."
+    "desc": "Buns now recover full HP.",
+    "desc_enhanced": "Buns now recover full HP, and +50 Max Shield/Armor for 20s."
   },
   {
     "type": "normal",
@@ -744,7 +826,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/08/Casual_Gunsmanship.png/revision/latest/scale-to-width-down/64?cb=20200612012710",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/08/Casual_Gunsmanship.png",
     "img_title": "Casual_Gunsmanship.png",
-    "desc": "+20% Luck Shot Chance, but -20% weapon DMG when you don't make a Lucky Shot.Enhanced ( 60?): +20% Lucky Shot Chance, and there is still a 20% chance to inflict a crit hit if you don't hit weak spots."
+    "desc": "+20% Luck Shot Chance, but -20% weapon DMG when you don't make a Lucky Shot.",
+    "desc_enhanced": "+20% Lucky Shot Chance, and there is still a 20% chance to inflict a crit hit if you don't hit weak spots."
   },
   {
     "type": "normal",
@@ -753,7 +836,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/a9/Elemental_Torment.png/revision/latest/scale-to-width-down/64?cb=20200612012750",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/a9/Elemental_Torment.png",
     "img_title": "Elemental_Torment.png",
-    "desc": "+20% Lucky Shot Chance against enemies affected by Elemental Effect.Enhanced ( 40?): +20% Lucky Shot Chance against enemies under an elemental effect; There's a 20% chance to apply an elemental effect when hitting an enemy not affected by any elemental effect."
+    "desc": "+20% Lucky Shot Chance against enemies affected by Elemental Effect.",
+    "desc_enhanced": "+20% Lucky Shot Chance against enemies under an elemental effect; There's a 20% chance to apply an elemental effect when hitting an enemy not affected by any elemental effect."
   },
   {
     "type": "normal",
@@ -762,7 +846,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/0b/Brief_Respite.png/revision/latest/scale-to-width-down/64?cb=20200612012646",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/0b/Brief_Respite.png",
     "img_title": "Brief_Respite.png",
-    "desc": "Gain immunity to all DMG for 1s after swapping weapons or reloading. (Cooldown: 2s)Enhanced ( 80?): Gain immunity to all DMG for 0.5s after swapping weapons."
+    "desc": "Gain immunity to all DMG for 1s after swapping weapons or reloading. (Cooldown: 2s)",
+    "desc_enhanced": "Gain immunity to all DMG for 0.5s after swapping weapons."
   },
   {
     "type": "normal",
@@ -771,7 +856,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/14/Berserk_Soul.png/revision/latest/scale-to-width-down/64?cb=20200616072325",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/14/Berserk_Soul.png",
     "img_title": "Berserk_Soul.png",
-    "desc": "+0.5% Lucky Shot Chance for each 1% HP missing.Enhanced ( 20?): +1% Lucky Shot Chance for every 1% total HP missing."
+    "desc": "+0.5% Lucky Shot Chance for each 1% HP missing.",
+    "desc_enhanced": "+1% Lucky Shot Chance for every 1% total HP missing."
   },
   {
     "type": "normal",
@@ -780,7 +866,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d8/Evil-Banishing_Talisman.png/revision/latest/scale-to-width-down/64?cb=20200612012756",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d8/Evil-Banishing_Talisman.png",
     "img_title": "Evil-Banishing_Talisman.png",
-    "desc": "Gain immunity to all Cursed Scrolls.Enhanced ( 60?): Gain immunity to all Cursed Scrolls, and your Cursed Scrolls become discardable."
+    "desc": "Gain immunity to all Cursed Scrolls.",
+    "desc_enhanced": "Gain immunity to all Cursed Scrolls, and your Cursed Scrolls become discardable."
   },
   {
     "type": "normal",
@@ -789,7 +876,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/ae/Ammo_Recoverer.png/revision/latest/scale-to-width-down/64?cb=20200616072422",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/ae/Ammo_Recoverer.png",
     "img_title": "Ammo_Recoverer.png",
-    "desc": "Get 1 random ammo for every 1 meter traveled.Enhanced ( 40?): Get 1 ammo of each weapon type for every 1m traveled."
+    "desc": "Get 1 random ammo for every 1 meter traveled.",
+    "desc_enhanced": "Get 1 ammo of each weapon type for every 1m traveled."
   },
   {
     "type": "normal",
@@ -798,7 +886,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2a/Evil-Devouring_Sword.png/revision/latest/scale-to-width-down/64?cb=20200612012802",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2a/Evil-Devouring_Sword.png",
     "img_title": "Evil-Devouring_Sword.png",
-    "desc": "For every cursed scroll you own, +20% Weapon and Skill DMG.Enhanced ( 60?): For every cursed scroll you own, +40% Weapon and Skill DMG, +20% Lucky Shot Chance."
+    "desc": "For every cursed scroll you own, +20% Weapon and Skill DMG.",
+    "desc_enhanced": "For every cursed scroll you own, +40% Weapon and Skill DMG, +20% Lucky Shot Chance."
   },
   {
     "type": "normal",
@@ -807,7 +896,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f6/Abundant_Vitality.png/revision/latest/scale-to-width-down/64?cb=20200616072534",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f6/Abundant_Vitality.png",
     "img_title": "Abundant_Vitality.png",
-    "desc": "+75% total Weapon DMG while Shield/Armor is recovering. +75% total DMG for the next shot when Shield/Armor is fully recovered.Enhanced ( 100?): +75% total Weapon DMG while Shield/Armor is recovering, and Shield recovery won't be interrupted. +75% total DMG for the next shot when Shield/Armor is fully recovered."
+    "desc": "+75% total Weapon DMG while Shield/Armor is recovering. +75% total DMG for the next shot when Shield/Armor is fully recovered.",
+    "desc_enhanced": "+75% total Weapon DMG while Shield/Armor is recovering, and Shield recovery won't be interrupted. +75% total DMG for the next shot when Shield/Armor is fully recovered."
   },
   {
     "type": "normal",
@@ -816,7 +906,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/39/Against_the_Flow.png/revision/latest/scale-to-width-down/64?cb=20200612012550",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/39/Against_the_Flow.png",
     "img_title": "Against_the_Flow.png",
-    "desc": "Recover 15% ammo to the magazine every second for 4s after dealing DMG to an enemy. When the effect ends, instead lose 1 random type ammo from reserves every second.Enhanced ( 60?): Recover 15% ammo to the magazine every second for 4s after dealing DMG to an enemy."
+    "desc": "Recover 15% ammo to the magazine every second for 4s after dealing DMG to an enemy. When the effect ends, instead lose 1 random type ammo from reserves every second.",
+    "desc_enhanced": "Recover 15% ammo to the magazine every second for 4s after dealing DMG to an enemy."
   },
   {
     "type": "normal",
@@ -825,7 +916,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2a/Fast-Loader.png/revision/latest/scale-to-width-down/64?cb=20200616072610",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2a/Fast-Loader.png",
     "img_title": "Fast-Loader.png",
-    "desc": "After swapping weapons, replenish the magazine instantly and +30% Lucky Shot Chance. (Gradually decreases to 0% over 3s)Enhanced ( 60?): Fill the magazine instantly after swapping weapons. Your first 3 shots receive +30% Lucky Shot Chance and won't consume ammo. (Gradually decreases to 0% over 3s)"
+    "desc": "After swapping weapons, replenish the magazine instantly and +30% Lucky Shot Chance. (Gradually decreases to 0% over 3s)",
+    "desc_enhanced": "Fill the magazine instantly after swapping weapons. Your first 3 shots receive +30% Lucky Shot Chance and won't consume ammo. (Gradually decreases to 0% over 3s)"
   },
   {
     "type": "normal",
@@ -834,7 +926,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f5/Skateboarder.png/revision/latest/scale-to-width-down/64?cb=20200616072633",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f5/Skateboarder.png",
     "img_title": "Skateboarder.png",
-    "desc": "Fill the magazine instantly after dashing.Enhanced ( 60?): Fill the magazine instantly after dashing, and shooting won't consume ammo for the next 2s."
+    "desc": "Fill the magazine instantly after dashing.",
+    "desc_enhanced": "Fill the magazine instantly after dashing, and shooting won't consume ammo for the next 2s."
   },
   {
     "type": "normal",
@@ -843,7 +936,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/19/Fire_Enthusiast.png/revision/latest/scale-to-width-down/64?cb=20200612012817",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/19/Fire_Enthusiast.png",
     "img_title": "Fire_Enthusiast.png",
-    "desc": "When you are in Burning Effect, Fire DMG will recover 20% lost Total HP (CD: 0.5s). Whenever you inflict the Burning effect to enemies also inflict Burning on yourself (take continuous DMG).Enhanced ( 40?): Fire DMG will recover 20% lost Total HP (CD: 0.5s). Whenever you inflict the Burning effect to enemies also inflict Burning on yourself (take continuous DMG)."
+    "desc": "When you are in Burning Effect, Fire DMG will recover 20% lost Total HP (CD: 0.5s). Whenever you inflict the Burning effect to enemies also inflict Burning on yourself (take continuous DMG).",
+    "desc_enhanced": "Fire DMG will recover 20% lost Total HP (CD: 0.5s). Whenever you inflict the Burning effect to enemies also inflict Burning on yourself (take continuous DMG)."
   },
   {
     "type": "normal",
@@ -852,7 +946,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6a/Corrosion_Enthusiast.png/revision/latest/scale-to-width-down/64?cb=20200612012717",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6a/Corrosion_Enthusiast.png",
     "img_title": "Corrosion_Enthusiast.png",
-    "desc": "Whenever you inflict the Decay effect to enemies also inflict Decay on yourself (movement speed -50%). When you are in Decay, +10% DMG Resistance and +40% movement speed.Enhanced ( 40?): +10% DMG Resistance and +40% movement speed. Whenever you inflict the Decay effect to enemies also inflict Decay on yourself (movement speed -50%)."
+    "desc": "Whenever you inflict the Decay effect to enemies also inflict Decay on yourself (movement speed -50%). When you are in Decay, +10% DMG Resistance and +40% movement speed.",
+    "desc_enhanced": "+10% DMG Resistance and +40% movement speed. Whenever you inflict the Decay effect to enemies also inflict Decay on yourself (movement speed -50%)."
   },
   {
     "type": "normal",
@@ -861,7 +956,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f5/Lightning_Enthusiast.png/revision/latest/scale-to-width-down/64?cb=20200612012836",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f5/Lightning_Enthusiast.png",
     "img_title": "Lightning_Enthusiast.png",
-    "desc": "Whenever you inflict the Shock effect on enemies also inflict Shock on yourself (DMG taken +10%). When you are in Shock, +75% Lightning DMG.Enhanced ( 40?): +75% Lightning DMG. Whenever you inflict the Shock effect to enemies also inflict Shock on yourself (DMG taken +10%)."
+    "desc": "Whenever you inflict the Shock effect on enemies also inflict Shock on yourself (DMG taken +10%). When you are in Shock, +75% Lightning DMG.",
+    "desc_enhanced": "+75% Lightning DMG. Whenever you inflict the Shock effect to enemies also inflict Shock on yourself (DMG taken +10%)."
   },
   {
     "type": "normal",
@@ -870,7 +966,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c1/No_Retreat.png/revision/latest/scale-to-width-down/64?cb=20200612012843",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c1/No_Retreat.png",
     "img_title": "No_Retreat.png",
-    "desc": "+50% weapon DMG when Secondary Skill count is 0. Persists 12s above 0.Enhanced ( 40?): +50% Weapon DMG when secondary skill count is 0 or primary skill is cooling down. This bonus persists at least 20s."
+    "desc": "+50% weapon DMG when Secondary Skill count is 0. Persists 12s above 0.",
+    "desc_enhanced": "+50% Weapon DMG when secondary skill count is 0 or primary skill is cooling down. This bonus persists at least 20s."
   },
   {
     "type": "normal",
@@ -879,7 +976,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3f/Thunder_Screen.png/revision/latest/scale-to-width-down/64?cb=20200731001919",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3f/Thunder_Screen.png",
     "img_title": "Thunder_Screen.png",
-    "desc": "Deal lightning DMG to surrounding enemies within 12m when your Shield/Armor breaks. The DMG is affected by your max shield/armor, max HP, and skill DMG.Enhanced ( 60?): Deal lightning DMG to surrounding enemies within 12m when being hit or damaged. The lightning DMG is affected by your max shield/armor, max HP, and skill DMG (trigger up to once per second)."
+    "desc": "Deal lightning DMG to surrounding enemies within 12m when your Shield/Armor breaks. The DMG is affected by your max shield/armor, max HP, and skill DMG.",
+    "desc_enhanced": "Deal lightning DMG to surrounding enemies within 12m when being hit or damaged. The lightning DMG is affected by your max shield/armor, max HP, and skill DMG (trigger up to once per second)."
   },
   {
     "type": "normal",
@@ -888,7 +986,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9b/Long_Shot.png/revision/latest/scale-to-width-down/64?cb=20200731001918",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9b/Long_Shot.png",
     "img_title": "Long_Shot.png",
-    "desc": "Increase weapon DMG when hitting the enemy away from you. The further they are, the larger the bonus (up to 100%).Enhanced ( 40?): Increase weapon DMG when hitting the enemy away from you. The further they are, the larger the bonus (up to 200%)."
+    "desc": "Increase weapon DMG when hitting the enemy away from you. The further they are, the larger the bonus (up to 100%).",
+    "desc_enhanced": "Increase weapon DMG when hitting the enemy away from you. The further they are, the larger the bonus (up to 200%)."
   },
   {
     "type": "normal",
@@ -897,7 +996,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4b/Decay_Driver.png/revision/latest/scale-to-width-down/64?cb=20200731002046",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4b/Decay_Driver.png",
     "img_title": "Decay_Driver.png",
-    "desc": "+20% movement speed for 3s after inflicting decay effect or hurting enemies under decay effect.Enhanced ( 20?): +40% Movement Speed for 5s after inflicting decay effect or hurting enemies under decay effect."
+    "desc": "+20% movement speed for 3s after inflicting decay effect or hurting enemies under decay effect.",
+    "desc_enhanced": "+40% Movement Speed for 5s after inflicting decay effect or hurting enemies under decay effect."
   },
   {
     "type": "normal",
@@ -906,7 +1006,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/36/Mutual_Respect.png/revision/latest/scale-to-width-down/64?cb=20210131090911",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/36/Mutual_Respect.png",
     "img_title": "Mutual_Respect.png",
-    "desc": "Grants +15% weapon DMG and +5% DMG Resistance to you for every [Mutual Respect] you and your nearby teammate(s) own. (Only available in multiplayer)Enhanced ( ??): Grants +15% weapon DMG and +5% DMG Resistance to you for every [Mutual Respect] you and your teammate(s) own."
+    "desc": "Grants +15% weapon DMG and +5% DMG Resistance to you for every [Mutual Respect] you and your nearby teammate(s) own. (Only available in multiplayer)",
+    "desc_enhanced": "Grants +15% weapon DMG and +5% DMG Resistance to you for every [Mutual Respect] you and your teammate(s) own."
   },
   {
     "type": "normal",
@@ -915,7 +1016,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6e/Generosity.png/revision/latest/scale-to-width-down/64?cb=20210131090837",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6e/Generosity.png",
     "img_title": "Generosity.png",
-    "desc": "Increase the amount of HP recovered from buns by +50%; when picking up/getting buns, all teammates receive 25% of the HP recovered. (Only available in multiplayer)Enhanced ( 80?): Increase the amount of HP recovered from buns by 50%. When you pick up/obtain a bun, all teammates receive 25% of the HP recovered; You receive 25% of HP recovered by teammates when they pick up/obtain buns."
+    "desc": "Increase the amount of HP recovered from buns by +50%; when picking up/getting buns, all teammates receive 25% of the HP recovered. (Only available in multiplayer)",
+    "desc_enhanced": "Increase the amount of HP recovered from buns by 50%. When you pick up/obtain a bun, all teammates receive 25% of the HP recovered; You receive 25% of HP recovered by teammates when they pick up/obtain buns."
   },
   {
     "type": "normal",
@@ -924,7 +1026,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ed/Field_Support.png/revision/latest/scale-to-width-down/64?cb=20210131090828",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ed/Field_Support.png",
     "img_title": "Field_Support.png",
-    "desc": "While the holder is moving, +15% weapon damage for yourself and your teammates within 15m. (Only available in multiplayer)Enhanced ( ??): While the holder is moving, +30% weapon damage for yourself and your teammates."
+    "desc": "While the holder is moving, +15% weapon damage for yourself and your teammates within 15m. (Only available in multiplayer)",
+    "desc_enhanced": "While the holder is moving, +30% weapon damage for yourself and your teammates."
   },
   {
     "type": "normal",
@@ -933,7 +1036,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9d/Hidden_Treasure.png/revision/latest/scale-to-width-down/64?cb=20210131090850",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9d/Hidden_Treasure.png",
     "img_title": "Hidden_Treasure.png",
-    "desc": "Breakable objects may drop copper with a lower chance of dropping buns and soul essence when destroyed.Enhanced ( 20?): Breakable objects may drop coppers together with a higher chance of dropping buns and soul essences when destroyed."
+    "desc": "Breakable objects may drop copper with a lower chance of dropping buns and soul essence when destroyed.",
+    "desc_enhanced": "Breakable objects may drop coppers together with a higher chance of dropping buns and soul essences when destroyed."
   },
   {
     "type": "normal",
@@ -942,7 +1046,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3d/Wait_For_Good.png/revision/latest/scale-to-width-down/64?cb=20210131091024",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3d/Wait_For_Good.png",
     "img_title": "Wait_For_Good.png",
-    "desc": "First shot after each 10s will deal Crit DMG.Enhanced ( 60?): First shot after each 10s will deal Crit DMG (up to 10 stacks)."
+    "desc": "First shot after each 10s will deal Crit DMG.",
+    "desc_enhanced": "First shot after each 10s will deal Crit DMG (up to 10 stacks)."
   },
   {
     "type": "normal",
@@ -951,7 +1056,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/a4/Extra_Surprise.png/revision/latest/scale-to-width-down/64?cb=20210131090812",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/a4/Extra_Surprise.png",
     "img_title": "Extra_Surprise.png",
-    "desc": "Killing an enemy grants extra copper and extra chance to receive supply for secondary skill.Enhanced ( 40?): Killing an enemy grants extra coppers, and grants extra supply of Secondary Skill uses."
+    "desc": "Killing an enemy grants extra copper and extra chance to receive supply for secondary skill.",
+    "desc_enhanced": "Killing an enemy grants extra coppers, and grants extra supply of Secondary Skill uses."
   },
   {
     "type": "normal",
@@ -960,7 +1066,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/38/Energy_Sandals.png/revision/latest/scale-to-width-down/64?cb=20210131090744",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/38/Energy_Sandals.png",
     "img_title": "Energy_Sandals.png",
-    "desc": "Dash stacks 24 energy. Using Primary Skill or Secondary Skill consumes all energy and increase Skill DMG. +1% Skill DMG for each energy consumed. (Up to 600 energy can be stacked).Enhanced ( 60?): Dash stacks 24 energy. When energy is stacked, 33% chance to instantly max up stacks. Using Primary Skill or Secondary Skill consumes all energy and increase Skill DMG. +1% Skill DMG for each energy consumed. (Up to 600 energy can be stacked)."
+    "desc": "Dash stacks 24 energy. Using Primary Skill or Secondary Skill consumes all energy and increase Skill DMG. +1% Skill DMG for each energy consumed. (Up to 600 energy can be stacked).",
+    "desc_enhanced": "Dash stacks 24 energy. When energy is stacked, 33% chance to instantly max up stacks. Using Primary Skill or Secondary Skill consumes all energy and increase Skill DMG. +1% Skill DMG for each energy consumed. (Up to 600 energy can be stacked)."
   },
   {
     "type": "normal",
@@ -969,7 +1076,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3b/Skill_Booster.png/revision/latest/scale-to-width-down/64?cb=20210131091000",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3b/Skill_Booster.png",
     "img_title": "Skill_Booster.png",
-    "desc": "Crit Hit stacks 4 energy. Using Primary Skill or Secondary Skill consumes all energy and increase Skill DMG. +1% Skill DMG for each energy consumed. (Up to 500 energy can be stacked).Enhanced ( 60?): Crit Hit stacks 4 energy. When energy is stacked, 33% chance to instantly max up stacks. Using Primary Skill or Secondary Skill consumes all energy and increase Skill DMG. +1% Skill DMG for each energy consumed. (Up to 500 energy can be stacked)."
+    "desc": "Crit Hit stacks 4 energy. Using Primary Skill or Secondary Skill consumes all energy and increase Skill DMG. +1% Skill DMG for each energy consumed. (Up to 500 energy can be stacked).",
+    "desc_enhanced": "Crit Hit stacks 4 energy. When energy is stacked, 33% chance to instantly max up stacks. Using Primary Skill or Secondary Skill consumes all energy and increase Skill DMG. +1% Skill DMG for each energy consumed. (Up to 500 energy can be stacked)."
   },
   {
     "type": "normal",
@@ -978,7 +1086,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/58/Lone_Ranger.png/revision/latest/scale-to-width-down/64?cb=20210131090900",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/58/Lone_Ranger.png",
     "img_title": "Lone_Ranger.png",
-    "desc": "When not within 12m of a monster, gain +1% Lucky Shot Chance every 0.5s (up to 20 stacks). Lose 1 stack every 0.5s when within 12m of a monster. When at 20 stacks, gain an additional 5% Lucky Shot Chance.Enhanced ( 60?): When there are no monsters within 8 meters, gain 2 stacks every 0.5s (up to 40 stacks). Lose 1 stack every 0.5s otherwise. Gain +1% Lucky Shot Chance per stack, and when at 40 stacks, gain an additional 10% Lucky Shot Chance."
+    "desc": "When not within 12m of a monster, gain +1% Lucky Shot Chance every 0.5s (up to 20 stacks). Lose 1 stack every 0.5s when within 12m of a monster. When at 20 stacks, gain an additional 5% Lucky Shot Chance.",
+    "desc_enhanced": "When there are no monsters within 8 meters, gain 2 stacks every 0.5s (up to 40 stacks). Lose 1 stack every 0.5s otherwise. Gain +1% Lucky Shot Chance per stack, and when at 40 stacks, gain an additional 10% Lucky Shot Chance."
   },
   {
     "type": "normal",
@@ -987,7 +1096,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d7/Bullet_Light.png/revision/latest/scale-to-width-down/64?cb=20210131090622",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/d/d7/Bullet_Light.png",
     "img_title": "Bullet_Light.png",
-    "desc": "Each shot will consume 1 additional spare ammo, and +25% lucky shot chance. Recover consumed spare ammo when triggering a lucky shot.Enhanced ( 100?): +25% Lucky Shot Chance. Recover one consumed ammo to magazine and reserve upon triggering a lucky shot."
+    "desc": "Each shot will consume 1 additional spare ammo, and +25% lucky shot chance. Recover consumed spare ammo when triggering a lucky shot.",
+    "desc_enhanced": "+25% Lucky Shot Chance. Recover one consumed ammo to magazine and reserve upon triggering a lucky shot."
   },
   {
     "type": "normal",
@@ -996,7 +1106,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/47/Tactical_Reload.png/revision/latest/scale-to-width-down/64?cb=20210131091008",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/47/Tactical_Reload.png",
     "img_title": "Tactical_Reload.png",
-    "desc": "When reloading, +20% DMG Resistance and +30% movement speed.Enhanced ( 60?): When reloading and for 4s after reloading, +20% DMG Resistance and +30% movement speed."
+    "desc": "When reloading, +20% DMG Resistance and +30% movement speed.",
+    "desc_enhanced": "When reloading and for 4s after reloading, +20% DMG Resistance and +30% movement speed."
   },
   {
     "type": "normal",
@@ -1005,7 +1116,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/55/Resilient_Life.png/revision/latest/scale-to-width-down/64?cb=20210131090948",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/55/Resilient_Life.png",
     "img_title": "Resilient_Life.png",
-    "desc": "After taking damage, restore 3% HP per second for 5 seconds.Enhanced ( 100?): After taking DMG, restore 3% HP per second for 5s. (Up to 5 stacks)"
+    "desc": "After taking damage, restore 3% HP per second for 5 seconds.",
+    "desc_enhanced": "After taking DMG, restore 3% HP per second for 5s. (Up to 5 stacks)"
   },
   {
     "type": "normal",
@@ -1014,7 +1126,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/b9/Effective_Split.png/revision/latest/scale-to-width-down/64?cb=20210618151555",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/b9/Effective_Split.png",
     "img_title": "Effective_Split.png",
-    "desc": "Randomly get 2 undiscardable Occult Scrolls.Enhanced ( 120?): Randomly get 2 non-discardable Occult Scrolls, and have a 50% chance to obtain Enhanced Occult Scroll."
+    "desc": "Randomly get 2 undiscardable Occult Scrolls.",
+    "desc_enhanced": "Randomly get 2 non-discardable Occult Scrolls, and have a 50% chance to obtain Enhanced Occult Scroll."
   },
   {
     "type": "normal",
@@ -1023,7 +1136,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4e/Curiosity_Box.png/revision/latest/scale-to-width-down/64?cb=20210618151607",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4e/Curiosity_Box.png",
     "img_title": "Curiosity_Box.png",
-    "desc": "Randomly get 1-3 occult scrolls when picking up this scroll. (Extremely small chance of obtaining cursed scrolls)Enhanced ( 120?): Randomly get 1-3 Enhanced Occult Scrolls when picking up this scroll. (Extremely small chance of obtaining cursed scrolls)."
+    "desc": "Randomly get 1-3 occult scrolls when picking up this scroll. (Extremely small chance of obtaining cursed scrolls)",
+    "desc_enhanced": "Randomly get 1-3 Enhanced Occult Scrolls when picking up this scroll. (Extremely small chance of obtaining cursed scrolls)."
   },
   {
     "type": "normal",
@@ -1032,7 +1146,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/43/Good_and_Evil.png/revision/latest/scale-to-width-down/64?cb=20210618151621",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/43/Good_and_Evil.png",
     "img_title": "Good_and_Evil.png",
-    "desc": "+15% Lucky shot chance if you don't own any cursed scroll; +15 max shield/armor for each cursed scroll you ownEnhanced ( 100?): +30% Lucky Shot Chance and -30% Dash/Primary Skill cooldown if you don't own any cursed scrolls; +15 max HP and max Shield/Armor for each cursed scroll you own."
+    "desc": "+15% Lucky shot chance if you don't own any cursed scroll; +15 max shield/armor for each cursed scroll you own",
+    "desc_enhanced": "+30% Lucky Shot Chance and -30% Dash/Primary Skill cooldown if you don't own any cursed scrolls; +15 max HP and max Shield/Armor for each cursed scroll you own."
   },
   {
     "type": "normal",
@@ -1041,7 +1156,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6f/Sucker_Punch.png/revision/latest/scale-to-width-down/64?cb=20211118110554",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6f/Sucker_Punch.png",
     "img_title": "Sucker_Punch.png",
-    "desc": "+45% Skill DMG when your skill hits an enemy with more than 70% HP.Enhanced ( 60?): For every 1% total HP of an enemy, +0.7% Skill DMG dealt to it."
+    "desc": "+45% Skill DMG when your skill hits an enemy with more than 70% HP.",
+    "desc_enhanced": "For every 1% total HP of an enemy, +0.7% Skill DMG dealt to it."
   },
   {
     "type": "normal",
@@ -1050,7 +1166,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/ac/Enduring_Caster.png/revision/latest/scale-to-width-down/64?cb=20211118110606",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/ac/Enduring_Caster.png",
     "img_title": "Enduring_Caster.png",
-    "desc": "+1% skill DMG for every 5 total max HP you currently have.Enhanced ( 60?): +2% Total Skill DMG for every 5 total HP you currently have."
+    "desc": "+1% skill DMG for every 5 total max HP you currently have.",
+    "desc_enhanced": "+2% Total Skill DMG for every 5 total HP you currently have."
   },
   {
     "type": "normal",
@@ -1059,7 +1176,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ec/Vindictive_Nature.png/revision/latest/scale-to-width-down/64?cb=20211118110630",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ec/Vindictive_Nature.png",
     "img_title": "Vindictive_Nature.png",
-    "desc": "+40% weapon and skill DMG for 10s upon being hit or taking DMG.Enhanced ( 60?): +40% Weapon and Skill DMG for 10s upon being hit or taking DMG, +100% DMG dealt to the enemy who hit you for 10s."
+    "desc": "+40% weapon and skill DMG for 10s upon being hit or taking DMG.",
+    "desc_enhanced": "+40% Weapon and Skill DMG for 10s upon being hit or taking DMG, +100% DMG dealt to the enemy who hit you for 10s."
   },
   {
     "type": "normal",
@@ -1068,7 +1186,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/73/3rd_Time_Unlucky.png/revision/latest/scale-to-width-down/64?cb=20220624044648",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/73/3rd_Time_Unlucky.png",
     "img_title": "3rd_Time_Unlucky.png",
-    "desc": "+50% Weapon DMG. Obtain 1 Cursed Scroll for every 3 Mysterious Chests you opened. (Cannot be discarded)Enhanced ( 80?): +50% Weapon DMG. Obtain 1 Occult Scroll for every 3 Peculiar Chests you opened. (Cannot be discarded)"
+    "desc": "+50% Weapon DMG. Obtain 1 Cursed Scroll for every 3 Mysterious Chests you opened. (Cannot be discarded)",
+    "desc_enhanced": "+50% Weapon DMG. Obtain 1 Occult Scroll for every 3 Peculiar Chests you opened. (Cannot be discarded)"
   },
   {
     "type": "normal",
@@ -1077,7 +1196,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/97/Normal_Ammo_%28Scroll%29.png/revision/latest/scale-to-width-down/64?cb=20230601102959",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/97/Normal_Ammo_%28Scroll%29.png",
     "img_title": "Normal_Ammo_Scroll.png",
-    "desc": "-100% extra ammo of other types when shooting with normal ammo weapons. +30% Weapon DMG for each extra ammo consumed in this shooting.Enhanced ( ??): -100% extra ammo of other types when shooting with normal ammo weapons. +30% Weapon DMG for each extra ammo consumed in this shooting, +30% chance of a lucky shot for every large ammo consumed, +0.5x CritX for every special ammo consumed."
+    "desc": "-100% extra ammo of other types when shooting with normal ammo weapons. +30% Weapon DMG for each extra ammo consumed in this shooting.",
+    "desc_enhanced": "-100% extra ammo of other types when shooting with normal ammo weapons. +30% Weapon DMG for each extra ammo consumed in this shooting, +30% chance of a lucky shot for every large ammo consumed, +0.5x CritX for every special ammo consumed."
   },
   {
     "type": "normal",
@@ -1086,7 +1206,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/86/Large_Ammo_%28Scroll%29.png/revision/latest/scale-to-width-down/64?cb=20230601102932",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/86/Large_Ammo_%28Scroll%29.png",
     "img_title": "Large_Ammo_Scroll.png",
-    "desc": "-100% extra special ammo when shooting with large ammo weapons. +0.5x CritX for each extra ammo consumed in this shooting.Enhanced ( ??): -200% extra special ammo when shooting with large ammo weapons. +30% Lucky Shot Chance for each large ammo consumed in this shooting, +0.5x CritX for every special ammo consumed."
+    "desc": "-100% extra special ammo when shooting with large ammo weapons. +0.5x CritX for each extra ammo consumed in this shooting.",
+    "desc_enhanced": "-200% extra special ammo when shooting with large ammo weapons. +30% Lucky Shot Chance for each large ammo consumed in this shooting, +0.5x CritX for every special ammo consumed."
   },
   {
     "type": "normal",
@@ -1095,7 +1216,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8a/Special_Ammo_%28Scroll%29.png/revision/latest/scale-to-width-down/64?cb=20230601103039",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8a/Special_Ammo_%28Scroll%29.png",
     "img_title": "Special_Ammo_Scroll.png",
-    "desc": "-400% extra large ammo when shooting with special ammo weapons. +12% Lucky Shot Chance for each extra ammo consumed in this shooting.Enhanced ( 60?): -400% extra large ammo when shooting with special ammo weapons. +12% Lucky Shot Chance for each extra ammo consumed in this shooting, +0.5x CritX for every special ammo consumed."
+    "desc": "-400% extra large ammo when shooting with special ammo weapons. +12% Lucky Shot Chance for each extra ammo consumed in this shooting.",
+    "desc_enhanced": "-400% extra large ammo when shooting with special ammo weapons. +12% Lucky Shot Chance for each extra ammo consumed in this shooting, +0.5x CritX for every special ammo consumed."
   },
   {
     "type": "normal",
@@ -1104,7 +1226,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/a0/Connected_Mind.png/revision/latest/scale-to-width-down/64?cb=20230601102242",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/a0/Connected_Mind.png",
     "img_title": "Connected_Mind.png",
-    "desc": "When using the same weapon type with a teammate, +10% Weapon DMG; when using the same weapon with a teammate, +10% additional Weapon DMG.Enhanced ( ??): When using the same ammo type with a teammate, +10% Weapon DMG; When using the same weapon type with a teammate, +10% Lucky Shot Chance; when using the same weapon with a teammate, +0.2x CritX."
+    "desc": "When using the same weapon type with a teammate, +10% Weapon DMG; when using the same weapon with a teammate, +10% additional Weapon DMG.",
+    "desc_enhanced": "When using the same ammo type with a teammate, +10% Weapon DMG; When using the same weapon type with a teammate, +10% Lucky Shot Chance; when using the same weapon with a teammate, +0.2x CritX."
   },
   {
     "type": "normal",
@@ -1113,7 +1236,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/48/Piercing_Bullet.png/revision/latest/scale-to-width-down/64?cb=20230601103012",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/48/Piercing_Bullet.png",
     "img_title": "Piercing_Bullet.png",
-    "desc": "After dealing Weapon DMG to an enemy, +40% Skill DMG against that enemy for 5s.Enhanced ( 40?): +40% Skill DMG enemies taken for 5s after dealing Weapon DMG to enemies."
+    "desc": "After dealing Weapon DMG to an enemy, +40% Skill DMG against that enemy for 5s.",
+    "desc_enhanced": "+40% Skill DMG enemies taken for 5s after dealing Weapon DMG to enemies."
   },
   {
     "type": "rare",
@@ -1122,7 +1246,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/65/Paranormality.png/revision/latest/scale-to-width-down/64?cb=20200616071328",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/65/Paranormality.png",
     "img_title": "Paranormality.png",
-    "desc": "Max HP is fixed at 1, but Max Shield/Armor is doubled.Enhanced ( 100?): Max Shield/Armor gets doubled."
+    "desc": "Max HP is fixed at 1, but Max Shield/Armor is doubled.",
+    "desc_enhanced": "Max Shield/Armor gets doubled."
   },
   {
     "type": "rare",
@@ -1131,7 +1256,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8b/Flesh_and_Bones.png/revision/latest/scale-to-width-down/64?cb=20200615072054",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8b/Flesh_and_Bones.png",
     "img_title": "Flesh_and_Bones.png",
-    "desc": "Convert Shield/Armor to HP and +4% Max HP/s.Enhanced ( 100?): Convert all Shield/Armor to HP and +4% max HP/s. Increases HP recovery from this scroll by 4% for every 1% HP lost."
+    "desc": "Convert Shield/Armor to HP and +4% Max HP/s.",
+    "desc_enhanced": "Convert all Shield/Armor to HP and +4% max HP/s. Increases HP recovery from this scroll by 4% for every 1% HP lost."
   },
   {
     "type": "rare",
@@ -1140,7 +1266,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e4/Lifesaver.png/revision/latest/scale-to-width-down/64?cb=20200616071351",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e4/Lifesaver.png",
     "img_title": "Lifesaver.png",
-    "desc": "When HP is reduced to 0, HP is fixed at 1 for 5s. Killing any enemy within this duration will recover 50% Max HP and 50% Max Shield/Armor. This Occult Scroll is destroyed after triggering once.Enhanced ( 100?): HP is fixed at 1 for 5s when taking lethal DMG, and recovers 50% Max HP and 50% Max Shield/Armor if any enemy is killed during this period (CD 120s)."
+    "desc": "When HP is reduced to 0, HP is fixed at 1 for 5s. Killing any enemy within this duration will recover 50% Max HP and 50% Max Shield/Armor. This Occult Scroll is destroyed after triggering once.",
+    "desc_enhanced": "HP is fixed at 1 for 5s when taking lethal DMG, and recovers 50% Max HP and 50% Max Shield/Armor if any enemy is killed during this period (CD 120s)."
   },
   {
     "type": "rare",
@@ -1149,7 +1276,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/23/Bloody_Ammo.png/revision/latest/scale-to-width-down/64?cb=20200616071410",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/23/Bloody_Ammo.png",
     "img_title": "Bloody_Ammo.png",
-    "desc": "The weapon cannot reload automatically. When the magazine is empty, you can continue to fire, but each extra shot deals DMG to yourself equal to 1% of your total HP.Enhanced ( 60?): The weapon cannot reload automatically. When the magazine is empty, you can continue to fire, but each extra shot deals DMG to yourself equal to 1% of your total HP, gaining +10% Weapon DMG per shot for 5s (up to +100%)."
+    "desc": "The weapon cannot reload automatically. When the magazine is empty, you can continue to fire, but each extra shot deals DMG to yourself equal to 1% of your total HP.",
+    "desc_enhanced": "The weapon cannot reload automatically. When the magazine is empty, you can continue to fire, but each extra shot deals DMG to yourself equal to 1% of your total HP, gaining +10% Weapon DMG per shot for 5s (up to +100%)."
   },
   {
     "type": "rare",
@@ -1158,7 +1286,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/19/Triple_Comeback.png/revision/latest/scale-to-width-down/64?cb=20200616071504",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/19/Triple_Comeback.png",
     "img_title": "Triple_Comeback.png",
-    "desc": "-50% Max HP and Max Shield/Armor, but gain 2 extra revives. This occult scroll will be destroyed after the effect ends.Enhanced ( 160?): Gain 2 extra revives. This occult scroll will be destroyed after the effect ends."
+    "desc": "-50% Max HP and Max Shield/Armor, but gain 2 extra revives. This occult scroll will be destroyed after the effect ends.",
+    "desc_enhanced": "Gain 2 extra revives. This occult scroll will be destroyed after the effect ends."
   },
   {
     "type": "rare",
@@ -1167,7 +1296,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/67/Sanguine_Relic.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/67/Sanguine_Relic.png",
     "img_title": "Sanguine_Relic.png",
-    "desc": "+50% Max HP, -50% DMG Resistance, recover 30% lost Total HP for each hit dealt (CD: 0.5s).Enhanced ( 100?): +50% Max HP, recover 30% lost Total HP for each hit dealt (CD: 0.5s)."
+    "desc": "+50% Max HP, -50% DMG Resistance, recover 30% lost Total HP for each hit dealt (CD: 0.5s).",
+    "desc_enhanced": "+50% Max HP, recover 30% lost Total HP for each hit dealt (CD: 0.5s)."
   },
   {
     "type": "rare",
@@ -1176,7 +1306,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/ce/Giant_Slayer.png/revision/latest/scale-to-width-down/64?cb=20200616071539",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/ce/Giant_Slayer.png",
     "img_title": "Giant_Slayer.png",
-    "desc": "When hitting an enemy, there is a 10% chance to deal 15% of enemy's current HP as True DMG (Up to 2000 DMG per hit).Enhanced ( 80?): When hitting an enemy, there is a 10% chance to deal an additional 15% of the enemy's max HP as True DMG. (5000 * the number of players in your squad at most per hit)"
+    "desc": "When hitting an enemy, there is a 10% chance to deal 15% of enemy's current HP as True DMG (Up to 2000 DMG per hit).",
+    "desc_enhanced": "When hitting an enemy, there is a 10% chance to deal an additional 15% of the enemy's max HP as True DMG. (5000 gfr-app processed-data process-scraped-html.sh README.md scraped-data the number of players in your squad at most per hit)"
   },
   {
     "type": "rare",
@@ -1185,7 +1316,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/90/Ninja%27s_Discipline.png/revision/latest/scale-to-width-down/64?cb=20200616071703",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/90/Ninja%27s_Discipline.png",
     "img_title": "Ninjas_Discipline.png",
-    "desc": "+5% Lucky Shot Chance per second (up to +50%). Resets after triggering a Lucky Shot.Enhanced ( 60?): +5% Lucky Shot Chance per second (up to 10 stacks). Upon reaching the max stacks, resets after triggering a Lucky Shot."
+    "desc": "+5% Lucky Shot Chance per second (up to +50%). Resets after triggering a Lucky Shot.",
+    "desc_enhanced": "+5% Lucky Shot Chance per second (up to 10 stacks). Upon reaching the max stacks, resets after triggering a Lucky Shot."
   },
   {
     "type": "rare",
@@ -1194,7 +1326,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c6/Silver_Medal.png/revision/latest/scale-to-width-down/64?cb=20200616071739",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c6/Silver_Medal.png",
     "img_title": "Silver_Medal.png",
-    "desc": "Your shield starts recharging when you kill an enemy or destroy an item.Enhanced ( 60?): Your shield starts recharging with +50% shield recovery speed when you kill an enemy or destroy an item."
+    "desc": "Your shield starts recharging when you kill an enemy or destroy an item.",
+    "desc_enhanced": "Your shield starts recharging with +50% shield recovery speed when you kill an enemy or destroy an item."
   },
   {
     "type": "rare",
@@ -1203,7 +1336,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/56/Elemental_Convergence.png/revision/latest/scale-to-width-down/64?cb=20200616071837",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/56/Elemental_Convergence.png",
     "img_title": "Elemental_Convergence.png",
-    "desc": "+15% Elemental DMG for each nearby enemy with Elemental Effect. (Up to +75%)Enhanced ( 60?): +15% Elemental DMG for each nearby enemy with Elemental Effect."
+    "desc": "+15% Elemental DMG for each nearby enemy with Elemental Effect. (Up to +75%)",
+    "desc_enhanced": "+15% Elemental DMG for each nearby enemy with Elemental Effect."
   },
   {
     "type": "rare",
@@ -1212,7 +1346,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/96/Elemental_Weave.png/revision/latest/scale-to-width-down/64?cb=20200709122305",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/96/Elemental_Weave.png",
     "img_title": "Elemental_Weave.png",
-    "desc": "Element DMG will always cause an Elemental Effect within 3s after swapping weapons.Enhanced ( 40?): Element DMG will always cause an Elemental Effect within 6s after swapping weapons."
+    "desc": "Element DMG will always cause an Elemental Effect within 3s after swapping weapons.",
+    "desc_enhanced": "Element DMG will always cause an Elemental Effect within 6s after swapping weapons."
   },
   {
     "type": "rare",
@@ -1221,7 +1356,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/ca/Fountain_of_Life.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/ca/Fountain_of_Life.png",
     "img_title": "Fountain_of_Life.png",
-    "desc": "When picking up copper or ammo, recover 1 HP, or increase max HP by 1 for 10s if HP is full.Enhanced ( 60?): When picking up copper or ammo, recover 1 HP and increase max HP by 1 for 10s."
+    "desc": "When picking up copper or ammo, recover 1 HP, or increase max HP by 1 for 10s if HP is full.",
+    "desc_enhanced": "When picking up copper or ammo, recover 1 HP and increase max HP by 1 for 10s."
   },
   {
     "type": "rare",
@@ -1230,7 +1366,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/12/Flowing_Wind.png/revision/latest/scale-to-width-down/64?cb=20200616071856",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/12/Flowing_Wind.png",
     "img_title": "Flowing_Wind.png",
-    "desc": "While moving, the faster you move, the more DMG Resistance you gain. (up to +20%)Enhanced ( 60?): While moving, the faster you move, the more DMG Resistance you gain (up to +20%) and the higher DMG you deal (up to +50% weapon and skill DMG)."
+    "desc": "While moving, the faster you move, the more DMG Resistance you gain. (up to +20%)",
+    "desc_enhanced": "While moving, the faster you move, the more DMG Resistance you gain (up to +20%) and the higher DMG you deal (up to +50% weapon and skill DMG)."
   },
   {
     "type": "rare",
@@ -1239,7 +1376,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ec/Deft_Hands.png/revision/latest/scale-to-width-down/64?cb=20200616072011",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/ec/Deft_Hands.png",
     "img_title": "Deft_Hands.png",
-    "desc": "Shooting won't consume any ammo for the next 2s after killing an enemy or destroying an item.Enhanced ( 80?): Shooting won't consume any ammo for the next 4s after killing an enemy or destroying an item."
+    "desc": "Shooting won't consume any ammo for the next 2s after killing an enemy or destroying an item.",
+    "desc_enhanced": "Shooting won't consume any ammo for the next 4s after killing an enemy or destroying an item."
   },
   {
     "type": "rare",
@@ -1248,7 +1386,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9e/Arms_Dealer.png/revision/latest/scale-to-width-down/64?cb=20200616072031",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9e/Arms_Dealer.png",
     "img_title": "Arms_Dealer.png",
-    "desc": "+10% DMG Resistance and +30% DMG Dealt for 10s whenever you consume 100 ammo.Enhanced ( 60?): +10% DMG Resistance and +30% weapon and skill DMG for 3s whenever you consume 10 ammo."
+    "desc": "+10% DMG Resistance and +30% DMG Dealt for 10s whenever you consume 100 ammo.",
+    "desc_enhanced": "+10% DMG Resistance and +30% weapon and skill DMG for 3s whenever you consume 10 ammo."
   },
   {
     "type": "rare",
@@ -1257,7 +1396,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/22/Magic_Watch.png/revision/latest/scale-to-width-down/64?cb=20200616072059",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/22/Magic_Watch.png",
     "img_title": "Magic_Watch.png",
-    "desc": "There's a 33% chance to reset the cooldown every time you use Primary Skill/Dash.Enhanced ( 120?): There is a 33% chance to reset the cooldown of both Dash and Primary Skill when you use either of it."
+    "desc": "There's a 33% chance to reset the cooldown every time you use Primary Skill/Dash.",
+    "desc_enhanced": "There is a 33% chance to reset the cooldown of both Dash and Primary Skill when you use either of it."
   },
   {
     "type": "rare",
@@ -1266,7 +1406,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/af/Magnetic_Coil.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/af/Magnetic_Coil.png",
     "img_title": "Magnetic_Coil.png",
-    "desc": "Every 6s release an electromagnetic pulse that deals 350 Lightning DMG and inflicts the Shock effect. +50 Lightning DMG for each ascension level.Enhanced ( 100?): Every 6s and every time you deal a crit hit (CD: 1s), you release an electromagnetic pulse that deals 350 Lightning DMG and inflicts the Shock effect. +50 Lightning DMG for each ascension level."
+    "desc": "Every 6s release an electromagnetic pulse that deals 350 Lightning DMG and inflicts the Shock effect. +50 Lightning DMG for each ascension level.",
+    "desc_enhanced": "Every 6s and every time you deal a crit hit (CD: 1s), you release an electromagnetic pulse that deals 350 Lightning DMG and inflicts the Shock effect. +50 Lightning DMG for each ascension level."
   },
   {
     "type": "rare",
@@ -1275,7 +1416,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/01/Final_Judgment.png/revision/latest/scale-to-width-down/64?cb=20200612012810",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/0/01/Final_Judgment.png",
     "img_title": "Final_Judgment.png",
-    "desc": "Weapon attacks instantly kill normal enemies with less than 15% HP remaining or bosses with less than 8% HP remaining.Enhanced ( 100?): Weapon attacks and Hero Skills instantly kill normal enemies and elites with less than 20% HP remaining or bosses with less than 10% HP remaining."
+    "desc": "Weapon attacks instantly kill normal enemies with less than 15% HP remaining or bosses with less than 8% HP remaining.",
+    "desc_enhanced": "Weapon attacks and Hero Skills instantly kill normal enemies and elites with less than 20% HP remaining or bosses with less than 10% HP remaining."
   },
   {
     "type": "rare",
@@ -1284,7 +1426,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e7/Thorny_Carapace.png/revision/latest/scale-to-width-down/64?cb=20200616072118",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e7/Thorny_Carapace.png",
     "img_title": "Thorny_Carapace.png",
-    "desc": "Whenever an enemy hits you release a spike that deals Corrosive DMG to them. DMG is affected by max shields/armor, max HP and skill DMG.Enhanced ( 40?): Whenever an enemy hits you release 2 spikes that deals Corrosive DMG to them. DMG is affected by max shields/armor, max HP and skill DMG."
+    "desc": "Whenever an enemy hits you release a spike that deals Corrosive DMG to them. DMG is affected by max shields/armor, max HP and skill DMG.",
+    "desc_enhanced": "Whenever an enemy hits you release 2 spikes that deals Corrosive DMG to them. DMG is affected by max shields/armor, max HP and skill DMG."
   },
   {
     "type": "rare",
@@ -1293,7 +1436,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/eb/Coin_Shot.png/revision/latest/scale-to-width-down/64?cb=20200616072133",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/eb/Coin_Shot.png",
     "img_title": "Coin_Shot.png",
-    "desc": "+30% Lucky Shot Chance by consuming 2 copper when you land a shot. Copper spent will be refunded if you successfully trigger a Lucky Shot.Enhanced ( 60?): Consume two coins on each hit with +60% total weapon DMG (Can't be triggered when you don't have any copper). Killing an enemy in 5 hits refunds all Copper spent on the enemy. Triggering a Crit Hit/Lucky Shot/Elemental Effect does not consume any copper."
+    "desc": "+30% Lucky Shot Chance by consuming 2 copper when you land a shot. Copper spent will be refunded if you successfully trigger a Lucky Shot.",
+    "desc_enhanced": "Consume two coins on each hit with +60% total weapon DMG (Can't be triggered when you don't have any copper). Killing an enemy in 5 hits refunds all Copper spent on the enemy. Triggering a Crit Hit/Lucky Shot/Elemental Effect does not consume any copper."
   },
   {
     "type": "rare",
@@ -1302,7 +1446,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/30/Propulsion_Device.png/revision/latest/scale-to-width-down/64?cb=20200612012913",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/30/Propulsion_Device.png",
     "img_title": "Propulsion_Device.png",
-    "desc": "Dash skill has 3 Charges.Enhanced ( 60?): Dash skill has 3 charges and its distance is increased by 3m."
+    "desc": "Dash skill has 3 Charges.",
+    "desc_enhanced": "Dash skill has 3 charges and its distance is increased by 3m."
   },
   {
     "type": "rare",
@@ -1311,7 +1456,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/64/Copper_Miner.png/revision/latest/scale-to-width-down/64?cb=20200616072216",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/64/Copper_Miner.png",
     "img_title": "Copper_Miner.png",
-    "desc": "All enemies dead within 7 meters drop 2x the basic reward.Enhanced ( 60?): All enemies dead within 15m drop 2x the basic reward, within 7m drop 3x the basic reward."
+    "desc": "All enemies dead within 7 meters drop 2x the basic reward.",
+    "desc_enhanced": "All enemies dead within 15m drop 2x the basic reward, within 7m drop 3x the basic reward."
   },
   {
     "type": "rare",
@@ -1320,7 +1466,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c5/Veteran.png/revision/latest/scale-to-width-down/64?cb=20200616072237",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c5/Veteran.png",
     "img_title": "Veteran.png",
-    "desc": "+1 Max HP for each enemy you kill within 7 meters.Enhanced ( 60?): +1 Max Shield/Armor for each enemy you kill within 7 meters."
+    "desc": "+1 Max HP for each enemy you kill within 7 meters.",
+    "desc_enhanced": "+1 Max Shield/Armor for each enemy you kill within 7 meters."
   },
   {
     "type": "rare",
@@ -1329,7 +1476,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/92/Elite_Assassin.png/revision/latest/scale-to-width-down/64?cb=20200616072257",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/92/Elite_Assassin.png",
     "img_title": "Elite_Assassin.png",
-    "desc": "+10% DMG Dealt for each elite or boss you defeated or assisted in defeatingEnhanced ( 60?): +10% DMG Dealt for each elite or boss you defeated or assisted in defeating in the entire run."
+    "desc": "+10% DMG Dealt for each elite or boss you defeated or assisted in defeating",
+    "desc_enhanced": "+10% DMG Dealt for each elite or boss you defeated or assisted in defeating in the entire run."
   },
   {
     "type": "rare",
@@ -1338,7 +1486,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e9/Reinforced_Eggshell.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e9/Reinforced_Eggshell.png",
     "img_title": "Reinforced_Eggshell.png",
-    "desc": "+15% DMG Resistance when your Shield/Armor is not 0; -15% DMG Resistance when your Shield/Armor is 0.Enhanced ( 60?): +15% DMG Resistance when your Shield/Armor is not 0."
+    "desc": "+15% DMG Resistance when your Shield/Armor is not 0; -15% DMG Resistance when your Shield/Armor is 0.",
+    "desc_enhanced": "+15% DMG Resistance when your Shield/Armor is not 0."
   },
   {
     "type": "rare",
@@ -1347,7 +1496,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/95/Strategic_Advantage.png/revision/latest/scale-to-width-down/64?cb=20200616072344",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/95/Strategic_Advantage.png",
     "img_title": "Strategic_Advantage.png",
-    "desc": "+40% Movement Speed for 3s after using a Dash.Enhanced ( 80?): +40% Movement Speed and RoF for 3 s after using Dash."
+    "desc": "+40% Movement Speed for 3s after using a Dash.",
+    "desc_enhanced": "+40% Movement Speed and RoF for 3 s after using Dash."
   },
   {
     "type": "rare",
@@ -1356,7 +1506,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f3/Shrine_of_Recovery.png/revision/latest/scale-to-width-down/64?cb=20200709122305",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/f/f3/Shrine_of_Recovery.png",
     "img_title": "Shrine_of_Recovery.png",
-    "desc": "After not taking damage for 5s, regenerate 5% max HP per second. Regeneration stops when taking damage, with a maximum of 50% HP regenerated per instance.Enhanced ( 60?): After not taking damage for 5s, regenerate 5% max HP per second. Even when taking damage, the regeneration continued for an additional 5s."
+    "desc": "After not taking damage for 5s, regenerate 5% max HP per second. Regeneration stops when taking damage, with a maximum of 50% HP regenerated per instance.",
+    "desc_enhanced": "After not taking damage for 5s, regenerate 5% max HP per second. Even when taking damage, the regeneration continued for an additional 5s."
   },
   {
     "type": "rare",
@@ -1365,7 +1516,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/7b/Ostrich_Rider.png/revision/latest/scale-to-width-down/64?cb=20200616072401",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/7b/Ostrich_Rider.png",
     "img_title": "Ostrich_Rider.png",
-    "desc": "+50% Movement Speed, +300% Dash Cooldown.Enhanced ( 60?): +60% Movement Speed."
+    "desc": "+50% Movement Speed, +300% Dash Cooldown.",
+    "desc_enhanced": "+60% Movement Speed."
   },
   {
     "type": "rare",
@@ -1374,7 +1526,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4b/Blazing_Hoop.png/revision/latest/scale-to-width-down/64?cb=20200709122303",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/4b/Blazing_Hoop.png",
     "img_title": "Blazing_Hoop.png",
-    "desc": "Every 6s release a flame pulse that deals 350 Fire DMG and inflicts the Burning effect. +50 Fire DMG for each ascension level.Enhanced ( 100?): Every 6s and every time you deal a crit hit (CD: 1s), release a flame pulse that deals 350 Fire DMG and inflicts the Burning effect. +50 Fire DMG for each ascension level."
+    "desc": "Every 6s release a flame pulse that deals 350 Fire DMG and inflicts the Burning effect. +50 Fire DMG for each ascension level.",
+    "desc_enhanced": "Every 6s and every time you deal a crit hit (CD: 1s), release a flame pulse that deals 350 Fire DMG and inflicts the Burning effect. +50 Fire DMG for each ascension level."
   },
   {
     "type": "rare",
@@ -1383,7 +1536,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/39/Realm_of_Corrosion.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/39/Realm_of_Corrosion.png",
     "img_title": "Realm_of_Corrosion.png",
-    "desc": "Every 6s release a corrosive pulse that deals 350 Corrosion DMG and inflicts the Decay effect. +50 Corrosion DMG for each ascension level.Enhanced ( 100?): Every 6s and every time you deal a crit hit (CD: 1s), release a corrosive pulse that deals 350 Corrosion DMG and inflicts the Decay effect. +50 Corrosion DMG for each ascension level."
+    "desc": "Every 6s release a corrosive pulse that deals 350 Corrosion DMG and inflicts the Decay effect. +50 Corrosion DMG for each ascension level.",
+    "desc_enhanced": "Every 6s and every time you deal a crit hit (CD: 1s), release a corrosive pulse that deals 350 Corrosion DMG and inflicts the Decay effect. +50 Corrosion DMG for each ascension level."
   },
   {
     "type": "rare",
@@ -1392,7 +1546,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/82/Flame_Shard.png/revision/latest/scale-to-width-down/64?cb=20200616072439",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/82/Flame_Shard.png",
     "img_title": "Flame_Shard.png",
-    "desc": "Fire damage +25%, and immune to the negative effects of burning effect. The additive effect is doubled while in burning effect.Enhanced ( 80?): Fire damage +75%, and immune to negative effects of burning effect."
+    "desc": "Fire damage +25%, and immune to the negative effects of burning effect. The additive effect is doubled while in burning effect.",
+    "desc_enhanced": "Fire damage +75%, and immune to negative effects of burning effect."
   },
   {
     "type": "rare",
@@ -1401,7 +1556,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8c/Lightning_Shard.png/revision/latest/scale-to-width-down/64?cb=20200616072500",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/8c/Lightning_Shard.png",
     "img_title": "Lightning_Shard.png",
-    "desc": "Lightning damage +25%, and immune to the negative effects of shock effect. The additive effect is doubled while in shock effect.Enhanced ( 80?): Lightning damage +75%, and immune to  the negative effects of shock effect."
+    "desc": "Lightning damage +25%, and immune to the negative effects of shock effect. The additive effect is doubled while in shock effect.",
+    "desc_enhanced": "Lightning damage +75%, and immune to &nbsp;the negative effects of shock effect."
   },
   {
     "type": "rare",
@@ -1410,7 +1566,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/33/Corrosion_Shard.png/revision/latest/scale-to-width-down/64?cb=20200616072516",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/33/Corrosion_Shard.png",
     "img_title": "Corrosion_Shard.png",
-    "desc": "Corrosion damage +25%, and immune to the negative effects of decay effect. The additive effect is doubled while in decay effect.Enhanced ( 80?): Corrosion damage +75%, and immune to  the negative effects of decay effect."
+    "desc": "Corrosion damage +25%, and immune to the negative effects of decay effect. The additive effect is doubled while in decay effect.",
+    "desc_enhanced": "Corrosion damage +75%, and immune to &nbsp;the negative effects of decay effect."
   },
   {
     "type": "rare",
@@ -1419,7 +1576,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6f/Untold_Effort.png/revision/latest/scale-to-width-down/64?cb=20200612012930",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/6/6f/Untold_Effort.png",
     "img_title": "Untold_Effort.png",
-    "desc": "When casting a Secondary Skill, there is a 50% chance to double the consumption and 50% chance to deal double DMG.Enhanced ( 100?): When using the Secondary Skill, there is a 50% chance to not consume any use, and another 50% chance to deal +100% total DMG."
+    "desc": "When casting a Secondary Skill, there is a 50% chance to double the consumption and 50% chance to deal double DMG.",
+    "desc_enhanced": "When using the Secondary Skill, there is a 50% chance to not consume any use, and another 50% chance to deal +100% total DMG."
   },
   {
     "type": "rare",
@@ -1428,7 +1586,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e6/Safety_Measures.png/revision/latest/scale-to-width-down/64?cb=20200709122304",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/e/e6/Safety_Measures.png",
     "img_title": "Safety_Measures.png",
-    "desc": "Dashing after being injured recovers 50% of total DMG taken within 1s.Enhanced ( 80?): Dashing after being injured recovers 50% of total DMG taken within 2s."
+    "desc": "Dashing after being injured recovers 50% of total DMG taken within 1s.",
+    "desc_enhanced": "Dashing after being injured recovers 50% of total DMG taken within 2s."
   },
   {
     "type": "rare",
@@ -1437,7 +1596,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/b7/Windrider.png/revision/latest/scale-to-width-down/64?cb=20200616072649",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/b/b7/Windrider.png",
     "img_title": "Windrider.png",
-    "desc": "After dashing 3 times, gain immunity to All DMG for 2s.Enhanced ( 60?): After dashing 2 times, gain immunity to all DMG for 2s."
+    "desc": "After dashing 3 times, gain immunity to All DMG for 2s.",
+    "desc_enhanced": "After dashing 2 times, gain immunity to all DMG for 2s."
   },
   {
     "type": "rare",
@@ -1446,7 +1606,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3e/Capacity_Overdraft.png/revision/latest/scale-to-width-down/64?cb=20210131090637",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/3e/Capacity_Overdraft.png",
     "img_title": "Capacity_Overdraft.png",
-    "desc": "The secondary skill can still be used when the number of uses is insufficient, but each use will cause DMG to you.Enhanced ( 60?): The secondary skill can still be used when the number of uses is insufficient, but each use will cause DMG to you and grant +30% skill DMG for 5s. (Up to 5 stacks)"
+    "desc": "The secondary skill can still be used when the number of uses is insufficient, but each use will cause DMG to you.",
+    "desc_enhanced": "The secondary skill can still be used when the number of uses is insufficient, but each use will cause DMG to you and grant +30% skill DMG for 5s. (Up to 5 stacks)"
   },
   {
     "type": "rare",
@@ -1455,7 +1616,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9b/Dormant_Bullet.png/revision/latest/scale-to-width-down/64?cb=20210131090729",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/9b/Dormant_Bullet.png",
     "img_title": "Dormant_Bullet.png",
-    "desc": "The fewer bullets remaining in the magazine, the higher the Weapon DMG (up to +75%).Enhanced ( 80?): The fewer bullets remaining in the magazine, the higher the Weapon DMG (up to +75%). When remaining magazine ammo is no higher than 10% (or just 2), recover 10% magazine ammo (at least 1) every second."
+    "desc": "The fewer bullets remaining in the magazine, the higher the Weapon DMG (up to +75%).",
+    "desc_enhanced": "The fewer bullets remaining in the magazine, the higher the Weapon DMG (up to +75%). When remaining magazine ammo is no higher than 10% (or just 2), recover 10% magazine ammo (at least 1) every second."
   },
   {
     "type": "rare",
@@ -1464,7 +1626,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/38/Thunder_Step.png/revision/latest/scale-to-width-down/64?cb=20210131091017",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/38/Thunder_Step.png",
     "img_title": "Thunder_Step.png",
-    "desc": "After dashing, cast a lightning bolt at your previous position, dealing DMG to nearby enemies and temporarily imprisoning them.Enhanced ( 80?): After dashing, cast a lightning bolt on the 3 closest enemies within 25m, dealing DMG and temporarily imprisoning them."
+    "desc": "After dashing, cast a lightning bolt at your previous position, dealing DMG to nearby enemies and temporarily imprisoning them.",
+    "desc_enhanced": "After dashing, cast a lightning bolt on the 3 closest enemies within 25m, dealing DMG and temporarily imprisoning them."
   },
   {
     "type": "rare",
@@ -1473,7 +1636,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/81/Explosive_Bullets.png/revision/latest/scale-to-width-down/64?cb=20210131090804",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/8/81/Explosive_Bullets.png",
     "img_title": "Explosive_Bullets.png",
-    "desc": "Weapons will cause an additional explosion upon shooting, dealing DMG equivalent to 50% Weapon DMG (CD: 2s).Enhanced ( 60?): Weapons will cause an additional explosion upon shooting, dealing DMG equivalent to 100% Weapon DMG (CD: 1s)."
+    "desc": "Weapons will cause an additional explosion upon shooting, dealing DMG equivalent to 50% Weapon DMG (CD: 2s).",
+    "desc_enhanced": "Weapons will cause an additional explosion upon shooting, dealing DMG equivalent to 100% Weapon DMG (CD: 1s)."
   },
   {
     "type": "rare",
@@ -1482,7 +1646,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/cd/Fight_for_Immortality.png/revision/latest/scale-to-width-down/64?cb=20211118110356",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/cd/Fight_for_Immortality.png",
     "img_title": "Fight_for_Immortality.png",
-    "desc": "Upon taking DMG, gain additional max Shield/Armor for 12s, equivalent to the DMG received. (CD: 45s)Enhanced ( 80?): Upon taking DMG, gain additional max Shield/Armor for 25s, equivalent to the DMG received. (CD: 25s)"
+    "desc": "Upon taking DMG, gain additional max Shield/Armor for 12s, equivalent to the DMG received. (CD: 45s)",
+    "desc_enhanced": "Upon taking DMG, gain additional max Shield/Armor for 25s, equivalent to the DMG received. (CD: 25s)"
   },
   {
     "type": "rare",
@@ -1491,7 +1656,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/77/Hidden_Transaction.png/revision/latest/scale-to-width-down/64?cb=20211118110418",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/77/Hidden_Transaction.png",
     "img_title": "Hidden_Transaction.png",
-    "desc": "There's a 33% chance to enhance a weapon by +1 extra level when enhancing your weapons at a craftsman.Enhanced ( 80?): There’s a 33% chance to enhance a weapon by +1 extra level when enhancing your weapons at a craftsman; +1 total enhancements at the Craftsman."
+    "desc": "There's a 33% chance to enhance a weapon by +1 extra level when enhancing your weapons at a craftsman.",
+    "desc_enhanced": "There’s a 33% chance to enhance a weapon by +1 extra level when enhancing your weapons at a craftsman; +1 total enhancements at the Craftsman."
   },
   {
     "type": "rare",
@@ -1500,7 +1666,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/7a/Terrific_Crossfire.png/revision/latest/scale-to-width-down/64?cb=20211118110518",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/7a/Terrific_Crossfire.png",
     "img_title": "Terrific_Crossfire.png",
-    "desc": "-1s Primary Skill cooldown upon casting a Secondary Skill.Enhanced ( 80?): -1s Primary Skill cooldown upon casting a Secondary Skill. Every use of Primary Skill recovers 3 uses of Secondary Skill."
+    "desc": "-1s Primary Skill cooldown upon casting a Secondary Skill.",
+    "desc_enhanced": "-1s Primary Skill cooldown upon casting a Secondary Skill. Every use of Primary Skill recovers 3 uses of Secondary Skill."
   },
   {
     "type": "rare",
@@ -1509,7 +1676,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/5a/Surprise_Bonus.png/revision/latest/scale-to-width-down/64?cb=20211118110541",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/5/5a/Surprise_Bonus.png",
     "img_title": "Surprise_Bonus.png",
-    "desc": "When dealing Skill DMG, there is a 15% chance to deal +100% total DMG.Enhanced ( 80?): When dealing Skill DMG, there is a 15% chance to deal +100% total DMG, and a 5% chance to deal +200% total DMG."
+    "desc": "When dealing Skill DMG, there is a 15% chance to deal +100% total DMG.",
+    "desc_enhanced": "When dealing Skill DMG, there is a 15% chance to deal +100% total DMG, and a 5% chance to deal +200% total DMG."
   },
   {
     "type": "rare",
@@ -1518,7 +1686,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c0/Take_It_All.png/revision/latest/scale-to-width-down/64?cb=20230601103107",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c0/Take_It_All.png",
     "img_title": "Take_It_All.png",
-    "desc": "You can select all options in a Mysterious Chest. But you can no longer discard scrolls anymore. (cannot be discarded)Enhanced ( 80?): Peculiar Chests offer multiple options (cannot be discarded)."
+    "desc": "You can select all options in a Mysterious Chest. But you can no longer discard scrolls anymore. (cannot be discarded)",
+    "desc_enhanced": "Peculiar Chests offer multiple options (cannot be discarded)."
   },
   {
     "type": "rare",
@@ -1527,7 +1696,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/13/Refresh_Addict.png/revision/latest/scale-to-width-down/64?cb=20220624044521",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/13/Refresh_Addict.png",
     "img_title": "Refresh_Addict.png",
-    "desc": "Merch in the Peddler can be refreshed once more.Enhanced ( 60?): Merch in the Peddler and Phantom Peddler can be refreshed once more."
+    "desc": "Merch in the Peddler can be refreshed once more.",
+    "desc_enhanced": "Merch in the Peddler and Phantom Peddler can be refreshed once more."
   },
   {
     "type": "rare",
@@ -1536,7 +1706,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c9/Ancient_Timer.png/revision/latest/scale-to-width-down/64?cb=20220624044551",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/c/c9/Ancient_Timer.png",
     "img_title": "Ancient_Timer.png",
-    "desc": "-50% Primary Skill cooldown. 3s cooldown for secondary skill.Enhanced ( 120?): -50% Primary Skill cooldown."
+    "desc": "-50% Primary Skill cooldown. 3s cooldown for secondary skill.",
+    "desc_enhanced": "-50% Primary Skill cooldown."
   },
   {
     "type": "rare",
@@ -1545,7 +1716,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/19/Glazed_Sight.png/revision/latest/scale-to-width-down/64?cb=20220624044705",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/1/19/Glazed_Sight.png",
     "img_title": "Glazed_Sight.png",
-    "desc": "+1.5x CritX. After taking DMG to HP 50 times from enemies or traps, the bonus lowers to +0.5x. (Cannot be discarded)Enhanced ( 80?): +0.5x CritX. For every 10% HP you have, +0.1x CritX."
+    "desc": "+1.5x CritX. After taking DMG to HP 50 times from enemies or traps, the bonus lowers to +0.5x. (Cannot be discarded)",
+    "desc_enhanced": "+0.5x CritX. For every 10% HP you have, +0.1x CritX."
   },
   {
     "type": "rare",
@@ -1554,7 +1726,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/a6/Rational_Consumption.png/revision/latest/scale-to-width-down/64?cb=20220624044726",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/a/a6/Rational_Consumption.png",
     "img_title": "Rational_Consumption.png",
-    "desc": "+80% Skill DMG. Every time you purchase from the Peddler, lose 5% Skill DMG. (Will not drop below 0%. Scroll cannot be discarded)Enhanced ( 80?): +80% Skill DMG. Every time you interact with the Peddler, gain 10% Skill DMG. Every time you purchase from the Peddler, lose 5% Skill DMG. (Will not drop below 0%. Scroll cannot be discarded)"
+    "desc": "+80% Skill DMG. Every time you purchase from the Peddler, lose 5% Skill DMG. (Will not drop below 0%. Scroll cannot be discarded)",
+    "desc_enhanced": "+80% Skill DMG. Every time you interact with the Peddler, gain 10% Skill DMG. Every time you purchase from the Peddler, lose 5% Skill DMG. (Will not drop below 0%. Scroll cannot be discarded)"
   },
   {
     "type": "rare",
@@ -1563,7 +1736,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/34/Nirvana_Force.png/revision/latest/scale-to-width-down/64?cb=20230601102953",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/3/34/Nirvana_Force.png",
     "img_title": "Nirvana_Force.png",
-    "desc": "While knocked down, deals damage to enemies within an 8m radius per second (damage increases with lower max HP); +15% teammates movement speed and -30% revive time.Enhanced ( ??): No Down Penalty while knocked down. While knocked down, deals damage to enemies within an 8m radius per second (damage increases with lower max HP); +15% teammates movement speed and -30% revive time."
+    "desc": "While knocked down, deals damage to enemies within an 8m radius per second (damage increases with lower max HP); +15% teammates movement speed and -30% revive time.",
+    "desc_enhanced": "No Down Penalty while knocked down. While knocked down, deals damage to enemies within an 8m radius per second (damage increases with lower max HP); +15% teammates movement speed and -30% revive time."
   },
   {
     "type": "rare",
@@ -1572,7 +1746,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/94/Concurrent_Cooldown.png/revision/latest/scale-to-width-down/64?cb=20230601102236",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/94/Concurrent_Cooldown.png",
     "img_title": "Concurrent_Cooldown.png",
-    "desc": "-10% magazine ammo per second and gains a stack after reloading. Each stack +10% weapon damage (up to 100%). Stops consuming when the magazine is less than or equal to 50% or has 1 round left. Stacks reset after reloading.Enhanced ( 60?): After reloading, consume 10% of the magazine ammo to gain a stack. Each stack increases weapon damage by 10% (up to a maximum of 200%). Stacks reset after reloading."
+    "desc": "-10% magazine ammo per second and gains a stack after reloading. Each stack +10% weapon damage (up to 100%). Stops consuming when the magazine is less than or equal to 50% or has 1 round left. Stacks reset after reloading.",
+    "desc_enhanced": "After reloading, consume 10% of the magazine ammo to gain a stack. Each stack increases weapon damage by 10% (up to a maximum of 200%). Stacks reset after reloading."
   },
   {
     "type": "rare",
@@ -1581,7 +1756,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/47/Overflowing_Waters.png/revision/latest/scale-to-width-down/64?cb=20230601103006",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/47/Overflowing_Waters.png",
     "img_title": "Overflowing_Waters.png",
-    "desc": "Consume all when secondary skill count reaches the upper limit. +10% Weapon DMG for each charge consumed (last for 20s).Enhanced ( ??): Using secondary skill will consume all of the secondary skill count. +10% Weapon DMG for each charge consumed (last for 20s)."
+    "desc": "Consume all when secondary skill count reaches the upper limit. +10% Weapon DMG for each charge consumed (last for 20s).",
+    "desc_enhanced": "Using secondary skill will consume all of the secondary skill count. +10% Weapon DMG for each charge consumed (last for 20s)."
   },
   {
     "type": "rare",
@@ -1590,7 +1766,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/76/Blessing_in_Disguise.png/revision/latest/scale-to-width-down/64?cb=20230601103244",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/7/76/Blessing_in_Disguise.png",
     "img_title": "Blessing_in_Disguise.png",
-    "desc": "Ascension options are fixed at 2. You have 3 chances to select both Ascension options.Enhanced ( 120?): Ascension options are fixed at 2. You have 5 chances to select both Ascension options."
+    "desc": "Ascension options are fixed at 2. You have 3 chances to select both Ascension options.",
+    "desc_enhanced": "Ascension options are fixed at 2. You have 5 chances to select both Ascension options."
   },
   {
     "type": "rare",
@@ -1599,7 +1776,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/49/Lucky_Roulette.png/revision/latest/scale-to-width-down/64?cb=20230601102939",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/4/49/Lucky_Roulette.png",
     "img_title": "Lucky_Roulette.png",
-    "desc": "Change the Max copper owned to 9876. When switching stages, change the highest digit of the copper to 1, and then randomly permute the digits.Enhanced ( ??): Change the Max copper owned to 9876. When switching stages, change the smallest digit of the copper to 9, and then randomly permute the digits."
+    "desc": "Change the Max copper owned to 9876. When switching stages, change the highest digit of the copper to 1, and then randomly permute the digits.",
+    "desc_enhanced": "Change the Max copper owned to 9876. When switching stages, change the smallest digit of the copper to 9, and then randomly permute the digits."
   },
   {
     "type": "rare",
@@ -1608,7 +1786,8 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2a/Intimidating_Presence.png/revision/latest/scale-to-width-down/64?cb=20230601102305",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/2/2a/Intimidating_Presence.png",
     "img_title": "Intimidating_Presence.png",
-    "desc": "Defeating an enhanced monster inflicts Manipulation Effect on all monsters within a 7m radius of the defeated monster.Enhanced ( ??): Defeating an enhanced monster inflicts Manipulation Effect on all monsters within a 7m radius of yourself and the defeated monster."
+    "desc": "Defeating an enhanced monster inflicts Manipulation Effect on all monsters within a 7m radius of the defeated monster.",
+    "desc_enhanced": "Defeating an enhanced monster inflicts Manipulation Effect on all monsters within a 7m radius of yourself and the defeated monster."
   },
   {
     "type": "removed",
@@ -1617,6 +1796,7 @@
     "img_url_full": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/91/Coins_of_Life.png/revision/latest/scale-to-width-down/64?cb=20200731002044",
     "img_url_short": "https://static.wikia.nocookie.net/gunfire_reborn/images/9/91/Coins_of_Life.png",
     "img_title": "Coins_of_Life.png",
-    "desc": "Consume all copper when picking up this scroll. It protects from lethal damage once and would be destroyed afterwards."
+    "desc": "Consume all copper when picking up this scroll. It protects from lethal damage once and would be destroyed afterwards.",
+    "desc_enhanced": null
   }
 ]

@@ -8,8 +8,6 @@ This project contains setup for scraping data and then the gfr-app
 
 The app is a vite-powered vue project created in Feb 2024 by `npm create vue@latest`
 
-
-
 ## Wiki scraping
 
 We need to obtain icons and data from the fandom wiki. I've tried to make this a repeatable process so gameplay updates can be captured:
@@ -46,6 +44,22 @@ Each of the files created has a <tr> for each scroll. Each looks like this:
 </td>
 <td>Unable to pick up shared Occult Scrolls from teammates or share Occult Scrolls with teammates.
 </td></tr>
+```
+
+An example of the second <td> for an enhanced scroll: 
+```
+<td>
+  +10% DMG Resistance and +30% DMG Dealt for 10s whenever you consume 100 ammo.
+  <br><br>
+  <a href="https://gunfirereborn.fandom.com/wiki/Reincarnation" title="Reincarnation">Enhanced</a>
+  (<a href="https://gunfirereborn.fandom.com/wiki/Talents" title="Talents">
+    <img alt="Soul Essence" class="lazyload" data-image-key="Soul_Essence.png" data-image-name="Soul Essence.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/gunfire_reborn/images/b/bd/Soul_Essence.png/revision/latest/scale-to-width-down/24?cb=20200806132723" decoding="async" height="24" loading="lazy" src="data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D" width="24">
+  </a>
+  <a href="https://gunfirereborn.fandom.com/wiki/Talents" title="Talents">60</a>
+  <sup>
+    <abbr title="Soul Essence is used to upgrade permanent Talents after each run.">?</abbr>
+  </sup>): +10% DMG Resistance and +30% weapon and skill DMG for 3s whenever you consume 10 ammo. 
+</td>
 ```
 
 ### 2. Process the data and obtain all the needed resources

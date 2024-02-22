@@ -5,6 +5,7 @@ import scrolls from "@/assets/scrolls.json";
 let no_scrolls: number = 4;
 let indexes: number[] = [];
 
+// Pick random indexes from the scrolls array, ensuring no duplicates
 while (indexes.length < no_scrolls) {
   let n = Math.floor(Math.random() * scrolls.length);
   if (!indexes.includes(n)) {
