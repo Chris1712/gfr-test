@@ -4,31 +4,49 @@ import ScrollDetail from "@/components/ScrollDetail.vue";
 import ScrollImage from "@/components/ScrollImage.vue";
 import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
 
-let no_scrolls: number = 4;
-let indexes: number[] = [];
-const guessedScrollIndex = ref(-1); // -1 when not guessed, then changes to guessed index
+// Number of scrolls to display
+const no_scrolls: number = 4;
 
-// Pick random indexes from the scrolls array, ensuring no duplicates
-while (indexes.length < no_scrolls) {
-  let n = Math.floor(Math.random() * ScrollUtils.getScrolls().length);
-  if (!indexes.includes(n)) {
-    indexes.push(n);
+// Indexes of the scrolls to be displayed; no_scrolls of them
+const indexes = ref<number[]>([]);
+// Index of the correct scroll
+const correctIndex = ref<number | null>();
+// The correct scroll
+const correctScroll = ref<Scroll | null>(null);
+//  Index of the scroll guessed by the user; -1 when not guessed, then changes to guessed index
+const guessedScrollIndex = ref(-1);
+
+pickScrolls();
+
+// Pick no_scrolls randomly, and then select one of those as the correct one
+function pickScrolls() {
+  indexes.value = []; // Reset the list of scrolls
+
+  while (indexes.value.length < no_scrolls) {
+    let n = Math.floor(Math.random() * ScrollUtils.getScrolls().length);
+    if (!indexes.value.includes(n)) {
+      indexes.value.push(n);
+    }
   }
-}
 
-// Pick a random scroll to be the correct answer
-const correctIndex: number =  indexes[Math.floor(Math.random() * no_scrolls)];
-const correctScroll: Scroll = ScrollUtils.getScrolls()[correctIndex];
+  correctIndex.value =  indexes.value[Math.floor(Math.random() * no_scrolls)];
+  correctScroll.value = ScrollUtils.getScrolls()[correctIndex.value];
+}
 
 
 function selectScroll(index: number) {
   console.log("Selected scroll: " + index);
   guessedScrollIndex.value = index;
-  if (index === correctIndex) {
+  if (index === correctIndex.value) {
     console.log("Correct!");
   } else {
     console.log("Incorrect!");
   }
+}
+
+function reset() {
+  guessedScrollIndex.value = -1;
+  pickScrolls();
 }
 
 </script>
@@ -49,10 +67,11 @@ function selectScroll(index: number) {
       <scroll-detail :index="i" />
     </div>
   </div>
+  <br>
+  <button v-if="guessedScrollIndex>=0" @click="reset()">RESET</button>
 </template>
 
 <style scoped>
-
 
 .scroll-group {
   display: flex;
@@ -63,11 +82,19 @@ function selectScroll(index: number) {
   width: 100%;
 }
 
-
 .scroll-detail {
   flex-basis: 100%;
   padding: 10px;
   border: 1px solid var(--color-text);
+}
+
+button {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid var(--color-text);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  cursor: pointer;
 }
 
 @media (min-width: 1024px) {

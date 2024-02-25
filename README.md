@@ -86,10 +86,10 @@ Remember to commit everything too!
 
 ### TODO
 
-- Add a reset button
 - Add a counter for number correct / incorrect
 - Make prettier
   - Make the scroll detail line up images when titles are different length
   - Line up the instructions etc
   - Make the transition between guessing and answers less lame
+  - Maybe put a cross over the one you pick if it's wrong
 - Some nice tests!
