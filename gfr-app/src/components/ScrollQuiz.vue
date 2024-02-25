@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import ScrollDetail from "@/components/ScrollDetail.vue";
-import ScrollImage from "@/components/ScrollImage.vue";
 import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
 
 // Number of scrolls to display
@@ -58,17 +57,17 @@ function reset() {
   <h2>Pick the right scroll image:</h2><br>
   <div id="picker" class="scroll-group" v-if="guessedScrollIndex < 0">
     <div class="scroll-item" v-for="i in indexes" :key="i" @click="selectScroll(i)">
-      <scroll-image :index="i" />
+      <scroll-detail :index="i" :hide-details="true"/>
     </div>
   </div>
   <div id="answers" class="scroll-group" v-if="guessedScrollIndex >= 0">
     <div class="scroll-item" v-for="i in indexes" :key="i"
          :class="{'correct': i === correctIndex, 'incorrect': i !== correctIndex && i === guessedScrollIndex}">
-      <scroll-detail :index="i" />
+      <scroll-detail :index="i" :hide-details="false"/>
     </div>
   </div>
   <br>
-  <button v-if="guessedScrollIndex >=0 " @click="reset()">RESET</button>
+  <button  :class="{'hide': guessedScrollIndex < 0}" @click="reset()">RESET</button>
 </template>
 
 <style scoped>
@@ -92,7 +91,7 @@ button {
   width: 100%;
   padding: 20px;
   border: 1px solid var(--color-text);
-  background-color: var(--color-bg);
+  background-color: var(--color-background);
   color: var(--color-text);
   cursor: pointer;
 }

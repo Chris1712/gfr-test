@@ -90,6 +90,5 @@ Remember to commit everything too!
 - Make prettier
   - Make the scroll detail line up images when titles are different length
   - Line up the instructions etc
-  - Make the transition between guessing and answers less lame
   - Maybe put a cross over the one you pick if it's wrong
 - Some nice tests!
