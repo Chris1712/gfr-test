@@ -61,7 +61,7 @@ function reset() {
     </div>
   </div>
   <div id="answers" class="scroll-group" v-if="guessedScrollIndex >= 0">
-    <div class="scroll-item" v-for="i in indexes" :key="i"
+    <div class="scroll-item border" v-for="i in indexes" :key="i"
          :class="{'correct': i === correctIndex, 'incorrect': i !== correctIndex && i === guessedScrollIndex}">
       <scroll-detail :index="i" :hide-details="false"/>
     </div>
@@ -84,6 +84,10 @@ function reset() {
 .scroll-item {
   flex-basis: 100%;
   padding: 10px;
+  height: 600px
+}
+
+.border {
   border: 1px solid var(--color-text);
 }
 

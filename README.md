@@ -88,7 +88,7 @@ Remember to commit everything too!
 
 - Add a counter for number correct / incorrect
 - Make prettier
-  - Make the scroll detail line up images when titles are different length
+  - CSS to fade in the animations a little bit, so the images can load in time
   - Line up the instructions etc
   - Maybe put a cross over the one you pick if it's wrong
 - Some nice tests!
