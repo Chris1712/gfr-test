@@ -11,7 +11,7 @@ const props = defineProps<{
   index: number
 }>()
 
-const scroll = ScrollUtils.getScrolls()[props.index];
+const scroll: Scroll = ScrollUtils.getScrolls()[props.index];
 
 // Dynamically construct the image URL; necessary to work with vite once bundled.
 const imgPath = computed(() => {
@@ -23,13 +23,11 @@ const color = `var(--color-scroll-${scroll.type})`;
 </script>
 
 <template>
-  <div class="scroll-detail">
-    <h1>{{ scroll.name }}</h1>
-    <p class="type">{{ scroll.type }}</p>
-    <img :src="imgPath" :alt="scroll.name" width="80%" />
-    <p>{{ scroll.desc }}</p>
-    <p v-if="scroll.desc_enhanced"><br><em>Enhanced:</em> {{ scroll.desc_enhanced }}</p>
-  </div>
+  <h1>{{ scroll.name }}</h1>
+  <p class="type">{{ scroll.type }}</p>
+  <img :src="imgPath" :alt="scroll.name" width="80%" />
+  <p>{{ scroll.desc }}</p>
+  <p v-if="scroll.descEnhanced"><br><em>Enhanced:</em> {{ scroll.descEnhanced }}</p>
 </template>
 
 <style scoped>
@@ -54,12 +52,6 @@ const color = `var(--color-scroll-${scroll.type})`;
   em {
     font-weight: bold;
     color: var(--color-enhanced);
-  }
-
-  .scroll-detail {
-    flex-basis: 100%;
-    padding: 10px;
-    border: 1px solid var(--color-text);
   }
 
 </style>

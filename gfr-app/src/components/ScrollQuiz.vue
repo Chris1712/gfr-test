@@ -19,10 +19,18 @@ while (indexes.length < no_scrolls) {
 </script>
 
 <template>
-  <scroll-detail v-for="i in indexes" :index="i" :key="i" />
+  <div class="scroll-detail" v-for="i in indexes" :key="i" >
+    <scroll-detail :index="i" />
+  </div>
 </template>
 
 <style scoped>
+
+.scroll-detail {
+  flex-basis: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-text);
+}
 
 @media (min-width: 1024px) {
   header {
