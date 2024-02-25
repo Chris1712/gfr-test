@@ -52,7 +52,7 @@ function reset() {
 
 <template>
   <h2>Scroll description:</h2>
-  <p>{{correctScroll.desc}}</p>
+  <p>{{correctScroll?.desc}}</p>
   <br>
   <h2>Pick the right scroll image:</h2><br>
   <div id="picker" class="scroll-group" v-if="guessedScrollIndex < 0">
