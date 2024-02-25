@@ -10,11 +10,11 @@ const no_scrolls: number = 4;
 // Indexes of the scrolls to be displayed; no_scrolls of them
 const indexes = ref<number[]>([]);
 // Index of the correct scroll
-const correctIndex = ref<number | null>();
+const correctIndex = ref<number>();
 // The correct scroll
-const correctScroll = ref<Scroll | null>(null);
+const correctScroll = ref<Scroll>();
 //  Index of the scroll guessed by the user; -1 when not guessed, then changes to guessed index
-const guessedScrollIndex = ref(-1);
+const guessedScrollIndex = ref<number>(-1);
 
 pickScrolls();
 
@@ -56,19 +56,19 @@ function reset() {
   <p>{{correctScroll.desc}}</p>
   <br>
   <h2>Pick the right scroll image:</h2><br>
-  <div id="picker" class="scroll-group" v-if="guessedScrollIndex<0">
-    <div class="scroll-detail" v-for="i in indexes" :key="i" @click="selectScroll(i)">
+  <div id="picker" class="scroll-group" v-if="guessedScrollIndex < 0">
+    <div class="scroll-item" v-for="i in indexes" :key="i" @click="selectScroll(i)">
       <scroll-image :index="i" />
     </div>
   </div>
-  <div id="answers" class="scroll-group" v-if="guessedScrollIndex>=0">
-    <div class="scroll-detail" v-for="i in indexes" :key="i"
+  <div id="answers" class="scroll-group" v-if="guessedScrollIndex >= 0">
+    <div class="scroll-item" v-for="i in indexes" :key="i"
          :class="{'correct': i === correctIndex, 'incorrect': i !== correctIndex && i === guessedScrollIndex}">
       <scroll-detail :index="i" />
     </div>
   </div>
   <br>
-  <button v-if="guessedScrollIndex>=0" @click="reset()">RESET</button>
+  <button v-if="guessedScrollIndex >=0 " @click="reset()">RESET</button>
 </template>
 
 <style scoped>
@@ -82,7 +82,7 @@ function reset() {
   width: 100%;
 }
 
-.scroll-detail {
+.scroll-item {
   flex-basis: 100%;
   padding: 10px;
   border: 1px solid var(--color-text);
