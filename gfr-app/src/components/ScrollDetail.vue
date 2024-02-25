@@ -3,8 +3,8 @@
   Input is the index of the scroll
 -->
 <script setup lang="ts">
+import ScrollImage from "@/components/ScrollImage.vue";
 import ScrollUtils, { type Scroll, type ScrollType } from "@/services/ScrollUtils";
-import { computed } from 'vue';
 
 
 const props = defineProps<{
@@ -12,12 +12,6 @@ const props = defineProps<{
 }>()
 
 const scroll: Scroll = ScrollUtils.getScrolls()[props.index];
-
-// Dynamically construct the image URL; necessary to work with vite once bundled.
-const imgPath = computed(() => {
-  return new URL(`../assets/scroll-images/${scroll.imgTitle}`, import.meta.url).href;
-});
-
 const color = `var(--color-scroll-${scroll.type})`;
 
 </script>
@@ -25,7 +19,7 @@ const color = `var(--color-scroll-${scroll.type})`;
 <template>
   <h1>{{ scroll.name }}</h1>
   <p class="type">{{ scroll.type }}</p>
-  <img :src="imgPath" :alt="scroll.name" width="80%" />
+  <scroll-image :index="props.index" />
   <p>{{ scroll.desc }}</p>
   <p v-if="scroll.descEnhanced"><br><em>Enhanced:</em> {{ scroll.descEnhanced }}</p>
 </template>
@@ -44,10 +38,6 @@ const color = `var(--color-scroll-${scroll.type})`;
     color: v-bind('color')
   }
 
-  img {
-    display: block;
-    margin: 0 auto;
-  }
 
   em {
     font-weight: bold;
