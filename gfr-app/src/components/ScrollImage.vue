@@ -3,7 +3,7 @@
   Input is the index of the scroll
 -->
 <script setup lang="ts">
-import ScrollUtils, { type Scroll, type ScrollType } from "@/services/ScrollUtils";
+import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
 import { computed } from 'vue';
 
 
