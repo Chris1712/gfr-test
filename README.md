@@ -86,9 +86,10 @@ Remember to commit everything too!
 
 ### TODO
 
-- Finish up the scroll detail component - probably it needs to be provided with an id or something?
-  - Fix up alignment
-  - Maybe add a wiki link
-- Test a deployment once this can show N random scrolls on refresh
-- Look at all scrolls
-- Actually make a quiz - perhaps by selectively hiding component elements?
+- Add a reset button
+- Add a counter for number correct / incorrect
+- Make prettier
+  - Make the scroll detail line up images when titles are different length
+  - Line up the instructions etc
+  - Make the transition between guessing and answers less lame
+- Some nice tests!
