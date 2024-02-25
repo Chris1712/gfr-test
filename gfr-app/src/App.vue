@@ -17,15 +17,6 @@ import ScrollQuiz from "@/components/ScrollQuiz.vue";
     padding-right: calc(var(--section-gap) / 2);
   }
 
-  main {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    overflow-x: auto;
-    gap: 20px;
-    width: 100%;
-  }
-
   header {
     display: flex;
     place-items: flex-start;

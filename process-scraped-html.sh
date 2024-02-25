@@ -81,12 +81,10 @@ for file in processed-data/tables/*.html; do
     jq --arg type "$type" \
        --arg name "$name" \
        --arg link "$link" \
-       --arg img_url_full "$img_url_full" \
-       --arg img_url_short "$img_url_short" \
        --arg img_title "$img_title" \
        --arg desc "$desc" \
        --argjson desc_enhanced "$desc_enhanced" \
-      '. += [{"type": $type, "name": $name, "link": $link, "img_url_full": $img_url_full, "img_url_short": $img_url_short, "img_title": $img_title, "desc": $desc, "desc_enhanced": $desc_enhanced}]' "$output" > "${output}.tmp" && mv "${output}.tmp" "$output"
+      '. += [{"type": $type, "name": $name, "link": $link, "imgTitle": $img_title, "desc": $desc, "descEnhanced": $desc_enhanced}]' "$output" > "${output}.tmp" && mv "${output}.tmp" "$output"
 
     # Ensure that the image has been downloaded
     img_path=processed-data/images/$img_title

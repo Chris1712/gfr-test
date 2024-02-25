@@ -86,9 +86,9 @@ Remember to commit everything too!
 
 ### TODO
 
-- Finish up the scroll detail component - probably it needs to be provided with an id or something?
-  - Fix up alignment
-  - Maybe add a wiki link
-- Test a deployment once this can show N random scrolls on refresh
-- Look at all scrolls
-- Actually make a quiz - perhaps by selectively hiding component elements?
+- Add a counter for number correct / incorrect
+- Make prettier
+  - CSS to fade in the animations a little bit, so the images can load in time
+  - Line up the instructions etc
+  - Maybe put a cross over the one you pick if it's wrong
+- Some nice tests!

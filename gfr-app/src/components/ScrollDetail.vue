@@ -1,40 +1,33 @@
 <!--
-  Component representing all the details of a scroll
+  Component presenting all the details of a scroll
   Input is the index of the scroll
 -->
 <script setup lang="ts">
-import scrolls from "@/assets/scrolls.json";
-import { computed } from 'vue';
+import ScrollImage from "@/components/ScrollImage.vue";
+import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
 
 
 const props = defineProps<{
   index: number
+  hideDetails: boolean
 }>()
 
-const scroll = scrolls[props.index];
-
-// Dynamically construct the image URL; necessary to work with vite once bundled.
-const imgPath = computed(() => {
-  return new URL(`../assets/scroll-images/${scroll.img_title}`, import.meta.url).href;
-});
-
+const scroll: Scroll = ScrollUtils.getScrolls()[props.index];
 const color = `var(--color-scroll-${scroll.type})`;
 
 </script>
 
 <template>
-  <div class="scroll-detail">
-    <h1>{{ scroll.name }}</h1>
-    <p class="type">{{ scroll.type }}</p>
-    <img :src="imgPath" :alt="scroll.name" width="80%" />
-    <p>{{ scroll.desc }}</p>
-    <p v-if="scroll.desc_enhanced"><br><em>Enhanced:</em> {{ scroll.desc_enhanced }}</p>
-  </div>
+  <h2 :class="{'hide': hideDetails}">{{ scroll.name }}</h2>
+  <p class="type" :class="{'hide': hideDetails}">{{ scroll.type }}</p>
+  <scroll-image :index="props.index" />
+  <p :class="{'hide': hideDetails}">{{ scroll.desc }}</p>
+  <p v-if="scroll.descEnhanced" :class="{'hide': hideDetails}"><br><em>Enhanced:</em> {{ scroll.descEnhanced }}</p>
 </template>
 
 <style scoped>
 
-  h1, p {
+  h2, p {
     text-align: center;
   }
 
@@ -46,20 +39,10 @@ const color = `var(--color-scroll-${scroll.type})`;
     color: v-bind('color')
   }
 
-  img {
-    display: block;
-    margin: 0 auto;
-  }
 
   em {
     font-weight: bold;
     color: var(--color-enhanced);
-  }
-
-  .scroll-detail {
-    flex-basis: 100%;
-    padding: 10px;
-    border: 1px solid var(--color-text);
   }
 
 </style>
