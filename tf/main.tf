@@ -1,6 +1,6 @@
 // Public bucket holding UI
 resource "aws_s3_bucket" "gfr_ui_bucket" {
-  bucket = "gfr-ui"
+  bucket = "gunfire.pro"
 }
 
 resource "aws_s3_bucket_website_configuration" "gfr_ui_bucket_website" {

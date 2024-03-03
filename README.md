@@ -12,8 +12,10 @@ The app is a vite-powered vue project created in Feb 2024 by `npm create vue@lat
 
 Host this in a public AWS S3 bucket, see the tf directory for setup (`aws configure && terraform plan && terraform apply`)
 
+Note that the route 53 nameservers need to be set on namecheap.
+
 To deploy a new version:
-`aws s3 sync gfr-app/dist/ s3://gfr-ui --acl-public-read --delete
+`aws s3 sync gfr-app/dist/ s3://gunfire.pro --acl-public-read --delete
 
 ## Wiki scraping
 
