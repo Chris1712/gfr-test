@@ -39,20 +39,3 @@ resource "aws_s3_bucket_acl" "gfr_ui_bucket_acl" {
 }
 
 
-// Route 53 stuff. Note that my domain was purchased with namecheap
-
-resource "aws_route53_zone" "gfr_zone" {
-  name = "gunfire.pro"
-}
-
-resource "aws_route53_record" "www" {
-  zone_id = aws_route53_zone.gfr_zone.zone_id
-  name    = "gunfire.pro"
-  type    = "A"
-
-  alias {
-    name                   = aws_s3_bucket_website_configuration.gfr_ui_bucket_website.website_domain
-    zone_id                = aws_s3_bucket.gfr_ui_bucket.hosted_zone_id
-    evaluate_target_health = false
-  }
-}
