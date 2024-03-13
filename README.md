@@ -15,7 +15,11 @@ Host this in a public AWS S3 bucket, see the tf directory for setup (`aws config
 Note that the route 53 nameservers need to be set on namecheap.
 
 To deploy a new version:
-`aws s3 sync gfr-app/dist/ s3://gunfire.pro --acl-public-read --delete`
+```
+cd gfr-app
+npm run build
+aws s3 sync dist/ s3://gunfire.pro --acl public-read --delete
+```
 
 ## Wiki scraping
 
