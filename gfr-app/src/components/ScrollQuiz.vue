@@ -3,6 +3,8 @@ import { ref } from 'vue';
 import ScrollDetail from "@/components/ScrollDetail.vue";
 import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
 
+type mode = "guess" | "fadeout" | "done";
+
 // Number of scrolls to display
 const no_scrolls: number = 4;
 
@@ -14,6 +16,8 @@ const correctIndex = ref<number>();
 const correctScroll = ref<Scroll>();
 //  Index of the scroll guessed by the user; -1 when not guessed, then changes to guessed index
 const guessedScrollIndex = ref<number>(-1);
+
+const currentMode = ref<mode>("guess");
 
 pickScrolls();
 
@@ -32,19 +36,25 @@ function pickScrolls() {
   correctScroll.value = ScrollUtils.getScrolls()[correctIndex.value];
 }
 
-
 function selectScroll(index: number) {
+  currentMode.value = "fadeout";
   console.log("Selected scroll: " + index);
-  guessedScrollIndex.value = index;
   if (index === correctIndex.value) {
     console.log("Correct!");
   } else {
     console.log("Incorrect!");
   }
+
+  setTimeout(() => {
+    // TODO Once the fadeout is done, remove the wrong elements entirely
+    currentMode.value = "done";
+  }, 1000);
+
 }
 
 function reset() {
   guessedScrollIndex.value = -1;
+  currentMode.value = "guess";
   pickScrolls();
 }
 
@@ -54,20 +64,21 @@ function reset() {
   <h2>Scroll description:</h2>
   <p>{{correctScroll?.desc}}</p>
   <br>
-  <h2>Pick the right scroll image:</h2><br>
-  <div id="picker" class="scroll-group" v-if="guessedScrollIndex < 0">
-    <div class="scroll-item" v-for="i in indexes" :key="i" @click="selectScroll(i)">
+  <h2 :class="{hide: currentMode !==  'guess'}">Select the matching scroll image:</h2><br>
+  <div id="picker" class="scroll-group">
+    <div class="scroll-item"
+         :class="{
+           'correct': i === correctIndex && currentMode !== 'guess',
+           'hide': i !== correctIndex && currentMode !== 'guess'
+         }"
+         v-for="i in indexes"
+         :key="i"
+         @click="selectScroll(i)">
       <scroll-detail :index="i" :hide-details="true"/>
     </div>
   </div>
-  <div id="answers" class="scroll-group" v-else>
-    <div class="scroll-item border" v-for="i in indexes" :key="i"
-         :class="{'correct': i === correctIndex, 'incorrect': i !== correctIndex && i === guessedScrollIndex}">
-      <scroll-detail :index="i" :hide-details="false"/>
-    </div>
-  </div>
   <br>
-  <button  :class="{'hide': guessedScrollIndex < 0}" @click="reset()">RESET</button>
+  <button :class="{'initiallyHidden': currentMode !== 'done'}" @click="reset()">RESET</button>
 </template>
 
 <style scoped>
@@ -84,11 +95,10 @@ function reset() {
 .scroll-item {
   flex-basis: 100%;
   padding: 10px;
-  height: 600px
 }
 
-.border {
-  border: 1px solid var(--color-text);
+h2, p {
+  text-align: center;
 }
 
 button {
@@ -109,11 +119,21 @@ button {
 }
 
 .correct {
+  border: 1px solid var(--color-text);
   border-color: green !important;
 }
 
-.incorrect {
-  border-color: red !important;
+.hide {
+  animation: fadeOut 1s forwards;   /* forwards here means the final keyframe stays applied, IE they stay hidden */
+}
+
+.initiallyHidden {
+  visibility: hidden;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 </style>
