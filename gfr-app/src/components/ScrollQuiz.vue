@@ -11,7 +11,7 @@ const no_scrolls: number = 4;
 // Indexes of the scrolls to be displayed; no_scrolls of them
 const indexes = ref<number[]>([]);
 // Index of the correct scroll
-const correctIndex = ref<number>();
+const correctIndex = ref<number>(0);
 // The correct scroll
 const correctScroll = ref<Scroll>();
 
