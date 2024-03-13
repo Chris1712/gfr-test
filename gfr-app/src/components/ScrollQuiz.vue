@@ -66,34 +66,69 @@ function reset() {
 </script>
 
 <template>
-  <h2>Scroll description:</h2>
-  <p>{{correctScroll?.desc}}</p>
-  <br>
-  <div id="picker-container" v-if="!showAnswer">
-    <h2 :class="{hide: hidePicker}">Select the matching scroll image:</h2><br>
-    <div id="picker" class="scroll-group">
-      <div class="scroll-item"
-           :class="{
-             'correct': i === correctIndex && currentMode !== 'guess',
-             'hide': (i !== correctIndex && currentMode !== 'guess') || hidePicker
-           }"
-           v-for="i in indexes"
-           :key="i"
-           @click="selectScroll(i)">
-        <scroll-detail :index="i" :hide-details="true"/>
+  <div class="quiz-container">
+
+    <div class="top-section">
+      <h2>Scroll description:</h2>
+      <p>{{correctScroll?.desc}}</p>
+    </div>
+
+    <div class="middle-section">
+      <div id="picker-container" v-if="!showAnswer">
+        <h2 :class="{hide: hidePicker}">Select the matching scroll image:</h2><br>
+        <div id="picker" class="scroll-group">
+          <div class="scroll-item"
+               :class="{
+                 'correct': i === correctIndex && currentMode !== 'guess',
+                 'hide': (i !== correctIndex && currentMode !== 'guess') || hidePicker
+               }"
+               v-for="i in indexes"
+               :key="i"
+               @click="selectScroll(i)">
+            <scroll-detail :index="i" :hide-details="true"/>
+          </div>
+        </div>
+      </div>
+      <div id="answer-container" class="scroll-single show border" v-if="showAnswer">
+        <div>
+          <scroll-detail :index="correctIndex" :hide-details="false"/>
+        </div>
       </div>
     </div>
-  </div>
-  <div id="answer-container" class="scroll-single show" v-if="showAnswer">
-    <div>
-      <scroll-detail :index="correctIndex" :hide-details="false"/>
+
+    <div class="bottom-section">
+      <br>
+      <button class="border" :class="{'initiallyHidden': currentMode !== 'done', show: currentMode === 'done'}" @click="reset()">RESET</button>
     </div>
   </div>
-  <br>
-  <button :class="{'initiallyHidden': currentMode !== 'done', show: currentMode === 'done'}" @click="reset()">RESET</button>
 </template>
 
 <style scoped>
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-section, .middle-section, .bottom-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section {
+  display: block;
+  height: 10vh;
+}
+
+.middle-section {
+  height: 65vh;
+}
+
+.bottom-section {
+  height: 25vh;
+}
 
 .scroll-group {
   display: flex;
@@ -111,17 +146,24 @@ function reset() {
 
 .scroll-single {
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 350px;
+}
+
+.scroll-single.border {
+  padding: 20px;
 }
 
 h2, p {
   text-align: center;
 }
 
+.border {
+  border: 1px solid var(--color-text);
+}
+
 button {
   width: 100%;
   padding: 20px;
-  border: 1px solid var(--color-text);
   background-color: var(--color-background);
   color: var(--color-text);
   cursor: pointer;

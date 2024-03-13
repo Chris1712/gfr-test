@@ -89,4 +89,5 @@ Remember to commit everything too!
 ### TODO
 
 - Add a counter for number correct / incorrect
+- Set up specific instead of random questions
 - Some nice tests!
