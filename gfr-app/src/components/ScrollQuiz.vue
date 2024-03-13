@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import {computed, ref} from 'vue';
 import ScrollDetail from "@/components/ScrollDetail.vue";
 import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
+
+type mode = "guess" | "fadeoutWrong" | "fadeOutPicker" | "showCorrect" | "done";
 
 // Number of scrolls to display
 const no_scrolls: number = 4;
@@ -12,8 +14,10 @@ const indexes = ref<number[]>([]);
 const correctIndex = ref<number>();
 // The correct scroll
 const correctScroll = ref<Scroll>();
-//  Index of the scroll guessed by the user; -1 when not guessed, then changes to guessed index
-const guessedScrollIndex = ref<number>(-1);
+
+const currentMode = ref<mode>("guess");
+const hidePicker = computed(() => ! (currentMode.value === "guess" || currentMode.value === "fadeoutWrong"));
+const showAnswer = computed(() => currentMode.value === "showCorrect" || currentMode.value === "done");
 
 pickScrolls();
 
@@ -32,45 +36,104 @@ function pickScrolls() {
   correctScroll.value = ScrollUtils.getScrolls()[correctIndex.value];
 }
 
-
 function selectScroll(index: number) {
+  currentMode.value = "fadeoutWrong";
   console.log("Selected scroll: " + index);
-  guessedScrollIndex.value = index;
   if (index === correctIndex.value) {
     console.log("Correct!");
   } else {
     console.log("Incorrect!");
   }
+
+  setTimeout(() => {
+    currentMode.value = "fadeOutPicker";
+  }, 500);
+
+  setTimeout(() => {
+    currentMode.value = "showCorrect";
+  }, 1000);
+
+  setTimeout(() => {
+    currentMode.value = "done";
+  }, 1500);
 }
 
 function reset() {
-  guessedScrollIndex.value = -1;
+  currentMode.value = "guess";
   pickScrolls();
 }
 
 </script>
 
 <template>
-  <h2>Scroll description:</h2>
-  <p>{{correctScroll?.desc}}</p>
-  <br>
-  <h2>Pick the right scroll image:</h2><br>
-  <div id="picker" class="scroll-group" v-if="guessedScrollIndex < 0">
-    <div class="scroll-item" v-for="i in indexes" :key="i" @click="selectScroll(i)">
-      <scroll-detail :index="i" :hide-details="true"/>
+  <div class="quiz-container">
+
+    <div class="top-section">
+      <h2>Scroll description:</h2>
+      <p>{{correctScroll?.desc}}</p>
+    </div>
+
+    <div class="middle-section">
+      <div id="picker-container" v-if="!showAnswer">
+        <h2 class="showSlow" :class="{hide: hidePicker}">Select the matching scroll image:</h2><br>
+        <div id="picker" class="scroll-group">
+          <div class="scroll-item"
+               :class="{
+                 'correct': i === correctIndex && currentMode !== 'guess',
+                 'hide': (i !== correctIndex && currentMode !== 'guess') || hidePicker
+               }"
+               v-for="i in indexes"
+               :key="i"
+               @click="selectScroll(i)">
+            <scroll-detail :index="i" :hide-details="true"/>
+          </div>
+        </div>
+      </div>
+      <div id="answer-container" class="scroll-single show border" v-if="showAnswer">
+        <div>
+          <scroll-detail :index="correctIndex" :hide-details="false"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-section">
+      <br>
+      <button class="border" :class="{'initiallyHidden': currentMode !== 'done', show: currentMode === 'done'}" @click="reset()">RESET</button>
     </div>
   </div>
-  <div id="answers" class="scroll-group" v-else>
-    <div class="scroll-item border" v-for="i in indexes" :key="i"
-         :class="{'correct': i === correctIndex, 'incorrect': i !== correctIndex && i === guessedScrollIndex}">
-      <scroll-detail :index="i" :hide-details="false"/>
-    </div>
-  </div>
-  <br>
-  <button  :class="{'hide': guessedScrollIndex < 0}" @click="reset()">RESET</button>
 </template>
 
 <style scoped>
+
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-section, .middle-section, .bottom-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-section {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10vh;
+}
+
+.middle-section {
+  height: 65vh;
+}
+
+.bottom-section {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 25vh;
+}
 
 .scroll-group {
   display: flex;
@@ -84,7 +147,19 @@ function reset() {
 .scroll-item {
   flex-basis: 100%;
   padding: 10px;
-  height: 600px
+}
+
+.scroll-single {
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.scroll-single.border {
+  padding: 20px;
+}
+
+h2, p {
+  text-align: center;
 }
 
 .border {
@@ -94,7 +169,6 @@ function reset() {
 button {
   width: 100%;
   padding: 20px;
-  border: 1px solid var(--color-text);
   background-color: var(--color-background);
   color: var(--color-text);
   cursor: pointer;
@@ -109,11 +183,34 @@ button {
 }
 
 .correct {
+  border: 1px solid var(--color-text);
   border-color: green !important;
 }
 
-.incorrect {
-  border-color: red !important;
+.initiallyHidden {
+  visibility: hidden;
+}
+
+.hide {
+  animation: fadeOut 0.5s forwards;   /* forwards here means the final keyframe stays applied, IE they stay hidden */
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.show {
+  animation: fadeIn 0.5s forwards;   /* forwards here means the final keyframe stays applied, IE they stay hidden */
+}
+
+.showSlow {
+  animation: fadeIn 1s forwards;   /* forwards here means the final keyframe stays applied, IE they stay hidden */
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 </style>

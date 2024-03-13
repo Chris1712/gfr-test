@@ -18,11 +18,11 @@ const color = `var(--color-scroll-${scroll.type})`;
 </script>
 
 <template>
-  <h2 :class="{'hide': hideDetails}">{{ scroll.name }}</h2>
-  <p class="type" :class="{'hide': hideDetails}">{{ scroll.type }}</p>
+  <h2 v-if="!hideDetails">{{ scroll.name }}</h2>
+  <p v-if="!hideDetails" class="type">{{ scroll.type }}</p>
   <scroll-image :index="props.index" />
-  <p :class="{'hide': hideDetails}">{{ scroll.desc }}</p>
-  <p v-if="scroll.descEnhanced" :class="{'hide': hideDetails}"><br><em>Enhanced:</em> {{ scroll.descEnhanced }}</p>
+  <p v-if="!hideDetails">{{ scroll.desc }}</p>
+  <p v-if="scroll.descEnhanced && !hideDetails"><br><em>Enhanced:</em> {{ scroll.descEnhanced }}</p>
 </template>
 
 <style scoped>
