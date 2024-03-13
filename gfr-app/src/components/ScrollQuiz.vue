@@ -75,7 +75,7 @@ function reset() {
 
     <div class="middle-section">
       <div id="picker-container" v-if="!showAnswer">
-        <h2 :class="{hide: hidePicker}">Select the matching scroll image:</h2><br>
+        <h2 class="showSlow" :class="{hide: hidePicker}">Select the matching scroll image:</h2><br>
         <div id="picker" class="scroll-group">
           <div class="scroll-item"
                :class="{
@@ -118,7 +118,9 @@ function reset() {
 }
 
 .top-section {
-  display: block;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   height: 10vh;
 }
 
@@ -127,6 +129,9 @@ function reset() {
 }
 
 .bottom-section {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   height: 25vh;
 }
 
@@ -197,6 +202,10 @@ button {
 
 .show {
   animation: fadeIn 0.5s forwards;   /* forwards here means the final keyframe stays applied, IE they stay hidden */
+}
+
+.showSlow {
+  animation: fadeIn 1s forwards;   /* forwards here means the final keyframe stays applied, IE they stay hidden */
 }
 
 @keyframes fadeIn {
