@@ -7,7 +7,6 @@ type mode = "guess" | "fadeoutWrong" | "fadeOutPicker" | "showCorrect" | "done";
 
 // Number of scrolls to display
 const no_scrolls: number = 4;
-
 // Indexes of the scrolls to be displayed; no_scrolls of them
 const indexes = ref<number[]>([]);
 // Index of the correct scroll
@@ -21,10 +20,10 @@ const currentMode = ref<mode>("guess");
 const hidePicker = computed(() => ! (currentMode.value === "guess" || currentMode.value === "fadeoutWrong"));
 const showAnswer = computed(() => currentMode.value === "showCorrect" || currentMode.value === "done");
 
-pickScrolls();
+loadScrolls();
 
 // Pick no_scrolls randomly, and then select one of those as the correct one
-function pickScrolls() {
+function loadScrolls() {
   indexes.value = []; // Reset the list of scrolls
 
   while (indexes.value.length < no_scrolls) {
@@ -64,7 +63,7 @@ function selectScroll(index: number) {
 function reset() {
   currentMode.value = "guess";
   pickedIndex.value = 0;
-  pickScrolls();
+  loadScrolls();
 }
 
 </script>
