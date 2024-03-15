@@ -2,12 +2,13 @@
 import {computed, ref} from 'vue';
 import ScrollDetail from "@/components/ScrollDetail.vue";
 import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
+import QuizService, {Question} from "@/services/QuizService";
 
 type mode = "guess" | "fadeoutWrong" | "fadeOutPicker" | "showCorrect" | "done";
 
 
 // Number of questions
-const totalQuestions: number = 10;
+const totalQuestions: number = QuizService.getQuestionCount();
 // Indexes of the scrolls to be displayed
 const indexes = ref<number[]>([]);
 // Index of the correct scroll
@@ -26,19 +27,15 @@ const showAnswer = computed(() => currentMode.value === "showCorrect" || current
 
 loadScrolls();
 
-// Pick N scrolls randomly, and then select one of those as the correct one
+/**
+ * Load the scrolls for the current question
+ */
 function loadScrolls() {
-  const noScrolls: number = 4;
   indexes.value = []; // Reset the list of scrolls
+  const q: Question = QuizService.getQuestion(totalGuesses.value);
 
-  while (indexes.value.length < noScrolls) {
-    let n = Math.floor(Math.random() * ScrollUtils.getScrolls().length);
-    if (!indexes.value.includes(n)) {
-      indexes.value.push(n);
-    }
-  }
-
-  correctIndex.value =  indexes.value[Math.floor(Math.random() * noScrolls)];
+  indexes.value = q.choices;
+  correctIndex.value = q.answer;
   correctScroll.value = ScrollUtils.getScrolls()[correctIndex.value];
 }
 
