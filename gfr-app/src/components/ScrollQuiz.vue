@@ -2,7 +2,7 @@
 import {computed, ref} from 'vue';
 import ScrollDetail from "@/components/ScrollDetail.vue";
 import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
-import QuizService, {Question} from "@/services/QuizService";
+import QuizService, { type Question } from "@/services/QuizService";
 
 type mode = "guess" | "fadeoutWrong" | "fadeOutPicker" | "showCorrect" | "done";
 
