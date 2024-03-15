@@ -12,6 +12,8 @@ const no_scrolls: number = 4;
 const indexes = ref<number[]>([]);
 // Index of the correct scroll
 const correctIndex = ref<number>(0);
+// Index of the chosen scroll
+const pickedIndex = ref<number>(0);
 // The correct scroll
 const correctScroll = ref<Scroll>();
 
@@ -38,6 +40,7 @@ function pickScrolls() {
 
 function selectScroll(index: number) {
   currentMode.value = "fadeoutWrong";
+  pickedIndex.value = index;
   console.log("Selected scroll: " + index);
   if (index === correctIndex.value) {
     console.log("Correct!");
@@ -60,6 +63,7 @@ function selectScroll(index: number) {
 
 function reset() {
   currentMode.value = "guess";
+  pickedIndex.value = 0;
   pickScrolls();
 }
 
@@ -80,7 +84,8 @@ function reset() {
           <div class="scroll-item"
                :class="{
                  'correct': i === correctIndex && currentMode !== 'guess',
-                 'hide': (i !== correctIndex && currentMode !== 'guess') || hidePicker
+                 'hide': (i !== correctIndex && currentMode !== 'guess') || hidePicker,
+                 'wrong': (i !== correctIndex && i === pickedIndex && currentMode === 'fadeoutWrong')
                }"
                v-for="i in indexes"
                :key="i"
@@ -185,6 +190,10 @@ button {
 .correct {
   border: 1px solid var(--color-text);
   border-color: green !important;
+}
+
+.wrong {
+  border: 1px solid var(--color-text);
 }
 
 .initiallyHidden {
