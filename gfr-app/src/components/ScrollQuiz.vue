@@ -5,9 +5,10 @@ import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
 
 type mode = "guess" | "fadeoutWrong" | "fadeOutPicker" | "showCorrect" | "done";
 
-// Number of scrolls to display
-const no_scrolls: number = 4;
-// Indexes of the scrolls to be displayed; no_scrolls of them
+
+// Number of questions
+const totalQuestions: number = 10;
+// Indexes of the scrolls to be displayed
 const indexes = ref<number[]>([]);
 // Index of the correct scroll
 const correctIndex = ref<number>(0);
@@ -16,33 +17,39 @@ const pickedIndex = ref<number>(0);
 // The correct scroll
 const correctScroll = ref<Scroll>();
 
+const correctGuesses = ref<number>(0);
+const totalGuesses = ref<number>(0);
+
 const currentMode = ref<mode>("guess");
 const hidePicker = computed(() => ! (currentMode.value === "guess" || currentMode.value === "fadeoutWrong"));
 const showAnswer = computed(() => currentMode.value === "showCorrect" || currentMode.value === "done");
 
 loadScrolls();
 
-// Pick no_scrolls randomly, and then select one of those as the correct one
+// Pick N scrolls randomly, and then select one of those as the correct one
 function loadScrolls() {
+  const noScrolls: number = 4;
   indexes.value = []; // Reset the list of scrolls
 
-  while (indexes.value.length < no_scrolls) {
+  while (indexes.value.length < noScrolls) {
     let n = Math.floor(Math.random() * ScrollUtils.getScrolls().length);
     if (!indexes.value.includes(n)) {
       indexes.value.push(n);
     }
   }
 
-  correctIndex.value =  indexes.value[Math.floor(Math.random() * no_scrolls)];
+  correctIndex.value =  indexes.value[Math.floor(Math.random() * noScrolls)];
   correctScroll.value = ScrollUtils.getScrolls()[correctIndex.value];
 }
 
 function selectScroll(index: number) {
   currentMode.value = "fadeoutWrong";
   pickedIndex.value = index;
+  totalGuesses.value++;
   console.log("Selected scroll: " + index);
   if (index === correctIndex.value) {
     console.log("Correct!");
+    correctGuesses.value++;
   } else {
     console.log("Incorrect!");
   }
@@ -101,8 +108,10 @@ function reset() {
     </div>
 
     <div class="bottom-section">
-      <br>
-      <button class="border" :class="{'initiallyHidden': currentMode !== 'done', show: currentMode === 'done'}" @click="reset()">RESET</button>
+      <button class="border" :class="{'initiallyHidden': currentMode !== 'done', show: currentMode === 'done'}" @click="reset()">Next Question</button>
+      <div>
+        <span class="result" v-if="totalGuesses>0">Correct: {{correctGuesses}}/{{totalGuesses}}</span><span class="result">Remaining: {{ totalQuestions - totalGuesses }} </span>
+      </div>
     </div>
   </div>
 </template>
@@ -137,6 +146,7 @@ function reset() {
   justify-content: flex-start;
   align-items: center;
   height: 25vh;
+  gap: 20px;
 }
 
 .scroll-group {
@@ -171,11 +181,12 @@ h2, p {
 }
 
 button {
-  width: 100%;
-  padding: 20px;
+  width: 40vw;
+  padding: 10px;
   background-color: var(--color-background);
   color: var(--color-text);
   cursor: pointer;
+  font-size: 18px;
 }
 
 @media (min-width: 1024px) {
@@ -193,6 +204,11 @@ button {
 
 .wrong {
   border: 1px solid var(--color-text);
+}
+
+.result {
+  margin: 0 10px;
+  font-size: 18px;
 }
 
 .initiallyHidden {
