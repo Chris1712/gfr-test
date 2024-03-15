@@ -1,0 +1,12 @@
+[
+  {"choices": ["Ancient Timer", "Bluff", "Brutal Gloves", "Casual Gunsmanship"], "answer": "Brutal Gloves"},
+  {"choices": ["Advanced Joggers", "Against the Flow", "Bloody Ammo", "Magic Watch"], "answer": "Advanced Joggers"},
+  {"choices": ["3rd Time Unlucky", "Curiosity Box", "Double Exhilaration", "Flame Shard"], "answer": "Double Exhilaration"},
+  {"choices": ["Advanced Depot", "Ammo Belt", "Bullet Bank", "Copper Miner"], "answer": "Ammo Belt"},
+  {"choices": ["Arms Dealer", "Blazing Hoop", "Coin Shot", "Concurrent Cooldown"], "answer": "Blazing Hoop"},
+  {"choices": ["Energy Sandals", "Extravagant Consumption", "Flesh and Bones", "Generosity"], "answer": "Extravagant Consumption"},
+  {"choices": ["Abundant Vitality", "Brief Respite", "Deadly Counter", "Dual-edge"], "answer": "Brief Respite"},
+  {"choices": ["Ammo Recoverer", "Elemental Magazine", "Improved Clip", "Large Ammo"], "answer": "Elemental Magazine"},
+  {"choices": ["Corrosion Enthusiast", "Corrosion Shard", "Decay Driver", "Elemental Bestowment"], "answer": "Corrosion Shard"},
+  {"choices": ["Backup Shield", "Deflection Shield", "Elemental Cube", "Lightless Shield"], "answer": "Backup Shield"}
+]

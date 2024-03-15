@@ -16,5 +16,13 @@ export interface Scroll {
 export default {
     getScrolls(): Scroll[] {
         return (scrolls as Scroll[]).filter(s => s.type !== "removed" && s.type !== "cursed")
+    },
+
+    getScrollIndexByName(name: string): number {
+        const index = this.getScrolls().findIndex(s => s.name === name);
+        if (index === -1) {
+            console.error("Scroll not found: " + name)
+        }
+        return index;
     }
 }
