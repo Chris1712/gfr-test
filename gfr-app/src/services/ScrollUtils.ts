@@ -19,6 +19,10 @@ export default {
     },
 
     getScrollIndexByName(name: string): number {
-        return this.getScrolls().findIndex(s => s.name === name)
+        const index = this.getScrolls().findIndex(s => s.name === name);
+        if (index === -1) {
+            console.error("Scroll not found: " + name)
+        }
+        return index;
     }
 }
