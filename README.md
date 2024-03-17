@@ -93,5 +93,4 @@ Remember to commit everything too!
 ### TODO
 
 - Set up a finish screen
-- Analytics?
 - Some nice tests!
