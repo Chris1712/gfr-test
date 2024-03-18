@@ -4,7 +4,7 @@ import ScrollDetail from "@/components/ScrollDetail.vue";
 import ScrollUtils, { type Scroll } from "@/services/ScrollUtils";
 import QuizService, { type Question } from "@/services/QuizService";
 
-type mode = "guess" | "fadeoutWrong" | "fadeOutPicker" | "showCorrect" | "done";
+type mode = "guess" | "fadeoutWrong" | "fadeOutPicker" | "showCorrect" | "questionDone" | "complete";
 
 
 // Number of questions
@@ -23,7 +23,7 @@ const totalGuesses = ref<number>(0);
 
 const currentMode = ref<mode>("guess");
 const hidePicker = computed(() => ! (currentMode.value === "guess" || currentMode.value === "fadeoutWrong"));
-const showAnswer = computed(() => currentMode.value === "showCorrect" || currentMode.value === "done");
+const showAnswer = computed(() => currentMode.value === "showCorrect" || currentMode.value === "questionDone");
 
 loadScrolls();
 
@@ -40,10 +40,12 @@ function loadScrolls() {
 }
 
 function selectScroll(index: number) {
+  console.log("Total guesses: " + totalGuesses.value);
   currentMode.value = "fadeoutWrong";
   pickedIndex.value = index;
   totalGuesses.value++;
   console.log("Selected scroll: " + index);
+  console.log("Total guesses: " + totalGuesses.value);
   if (index === correctIndex.value) {
     console.log("Correct!");
     correctGuesses.value++;
@@ -60,7 +62,12 @@ function selectScroll(index: number) {
   }, 1000);
 
   setTimeout(() => {
-    currentMode.value = "done";
+    if (totalGuesses.value == totalQuestions) {
+      console.log("Quiz complete!");
+      currentMode.value = "complete";
+    } else {
+      currentMode.value = "questionDone";
+    }
   }, 1500);
 }
 
@@ -73,7 +80,7 @@ function reset() {
 </script>
 
 <template>
-  <div class="quiz-container">
+  <div v-if='currentMode !== "complete"' class="quiz-container">
 
     <div class="top-section">
       <h2>Scroll description:</h2>
@@ -105,11 +112,16 @@ function reset() {
     </div>
 
     <div class="bottom-section">
-      <button class="border" :class="{'initiallyHidden': currentMode !== 'done', show: currentMode === 'done'}" @click="reset()">Next Question</button>
+      <button class="border" :class="{'initiallyHidden': currentMode !== 'questionDone', show: currentMode === 'questionDone'}" @click="reset()">Next Question</button>
       <div>
         <span class="result" v-if="totalGuesses>0">Correct: {{correctGuesses}}/{{totalGuesses}}</span><span class="result">Remaining: {{ totalQuestions - totalGuesses }} </span>
       </div>
     </div>
+  </div>
+
+  <div v-else>
+    <h2>Quiz complete!</h2>
+    <p>You got {{correctGuesses}} out of {{totalQuestions}} correct</p>
   </div>
 </template>
 
