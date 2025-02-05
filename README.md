@@ -4,6 +4,11 @@ Test your GFR knowledge!
 
 This project contains setup for scraping data and then the gfr-app
 
+## Deprecation
+
+I turned this off in AWS on 2025-02-05 to save 60 cents per month
+
+
 ## Building the app
 
 The app is a vite-powered vue project created in Feb 2024 by `npm create vue@latest`
